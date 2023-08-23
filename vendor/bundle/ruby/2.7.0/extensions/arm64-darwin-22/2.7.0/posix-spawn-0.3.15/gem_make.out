@@ -1,0 +1,26 @@
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+/opt/homebrew/opt/ruby@2.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-g59vwg sitelibdir\=./.gem.20230814-15734-g59vwg clean
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-g59vwg sitelibdir\=./.gem.20230814-15734-g59vwg
+compiling posix-spawn.c
+posix-spawn.c:226:27: warning: incompatible function pointer types passing 'int (VALUE, VALUE, posix_spawn_file_actions_t *)' (aka 'int (unsigned long, unsigned long, void **)') to parameter of type 'int (*)(VALUE, VALUE, VALUE)' (aka 'int (*)(unsigned long, unsigned long, unsigned long)') [-Wincompatible-function-pointer-types]
+        rb_hash_foreach(options, posixspawn_file_actions_operations_iter, (VALUE)fops);
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Cellar/ruby@2.7/2.7.8_1/include/ruby-2.7.0/ruby/intern.h:558:35: note: passing argument to parameter here
+void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+                                  ^
+1 warning generated.
+linking shared-object posix_spawn_ext.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-g59vwg sitelibdir\=./.gem.20230814-15734-g59vwg install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20230814-15734-g59vwg
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-g59vwg sitelibdir\=./.gem.20230814-15734-g59vwg clean

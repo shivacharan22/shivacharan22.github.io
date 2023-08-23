@@ -1,0 +1,21 @@
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/duktape-2.7.0.0/ext/duktape
+/opt/homebrew/opt/ruby@2.7/bin/ruby extconf.rb
+checking for rb_sym2str()... yes
+creating Makefile
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-13zbtso sitelibdir\=./.gem.20230814-15734-13zbtso clean
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-13zbtso sitelibdir\=./.gem.20230814-15734-13zbtso
+compiling duktape.c
+compiling duktape_ext.c
+linking shared-object duktape_ext.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-13zbtso sitelibdir\=./.gem.20230814-15734-13zbtso install
+/usr/bin/install -c -m 0755 duktape_ext.bundle ./.gem.20230814-15734-13zbtso
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-13zbtso sitelibdir\=./.gem.20230814-15734-13zbtso clean

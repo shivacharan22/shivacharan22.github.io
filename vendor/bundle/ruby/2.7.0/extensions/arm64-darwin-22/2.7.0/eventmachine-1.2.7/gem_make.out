@@ -1,0 +1,20 @@
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/opt/homebrew/opt/ruby@2.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-kgd79z sitelibdir\=./.gem.20230814-15734-kgd79z clean
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-kgd79z sitelibdir\=./.gem.20230814-15734-kgd79z
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-kgd79z sitelibdir\=./.gem.20230814-15734-kgd79z install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20230814-15734-kgd79z
+
+current directory: /Users/shiva/hyde/hydejack-starter-kit-9.1.6/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230814-15734-kgd79z sitelibdir\=./.gem.20230814-15734-kgd79z clean
