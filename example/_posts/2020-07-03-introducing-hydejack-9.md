@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Introducing Hydejack 9
+title: Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback
 image: 
-  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
+  path: /assets/img/model.jpeg
 description: >
-  Version 9 is the most complete version of Hydejack yet.
-  Modernized design, big headlines, and big new features.
+  Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback
 sitemap: false
 ---
 

@@ -7,17 +7,20 @@ image:
   path: /assets/img/blog/arc1.png
   srcset:
     1060w: /assets/img/blog/arc1.png
-    530w:  /assets/img/blog/example-content-iii@0,5x.jpg
-    265w:  /assets/img/blog/example-content-iii@0,25x.jpg
+    530w:  /assets/img/blog/arc1.png
+    265w:  /assets/img/blog/arc1.png
 related_posts:
   - example/_posts/2017-11-23-example-content-ii.md
   - /example/2012-02-07-example-content/
 sitemap: false
 ---
+---
+## The reason for this project 
+Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, "Why not make a machine to kill all the bloody mosquitoes?". The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)
 
-Hydejack offers a few additional features to markup your markdown.
-Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,
-so that your content remains compatible with other Jekyll themes.
+## The process
+
+
 
 ## Large Tables
 
