@@ -21,7 +21,6 @@ Whenever I visit places with mosquitoes around, I am the one who gets bitten a l
 ## The process
 
 
-
 ## Large Tables
 
 | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
