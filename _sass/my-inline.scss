@@ -187,8 +187,8 @@ html {
     --font-family: Noto Sans, Helvetica, Arial, sans-serif;
     --font-family-heading: Roboto Slab, Helvetica, Arial, sans-serif;
     --code-font-family: Fira Code, Menlo, Monaco, Consolas, monospace;
-    --body-color: #031d34;
-    --body-bg: #031d34;
+    --body-color: #04294b;
+    --body-bg: #04294b;
     --border-color: #ebebeb;
     --gray: #777;
     --gray-bg: rgba(0, 0, 0, 0.025);
@@ -234,8 +234,8 @@ html {
 }
 
 body {
-    color: #010f62;
-    background-color: #031d34;
+    color: #e2edf0;
+    background-color: #04294b;
     font-weight: var(--font-weight);
     overflow-y: scroll
 }
@@ -1734,7 +1734,7 @@ hy-drawer.loaded .sidebar {
 .nav-btn-bar {
     margin: 0 -1rem;
     background-color: #fff;
-    background-color: #031d34;
+    background-color: #04294b;
     height: 5rem;
     display: flex;
     align-items: center;

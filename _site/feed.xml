@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-26T23:17:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2020-07-03T00:00:00-07:00</published><updated>2023-08-23T06:56:14-07:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-05T11:51:41-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2020-07-03T00:00:00-04:00</published><updated>2023-08-29T22:04:55-04:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
 
 <p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
 
@@ -88,146 +88,315 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
   If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2018-06-01T00:00:00-07:00</published><updated>2023-08-23T06:56:14-07:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<hr />
+</div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2018-06-01T00:00:00-04:00</published><updated>2023-08-29T21:54:07-04:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<hr />
 <h2 id="the-reason-for-this-project">The reason for this project</h2>
 <p>Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, “Why not make a machine to kill all the bloody mosquitoes?”. The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)</p>
 
+<h2 id="global-problem">Global problem</h2>
+<p>Check out the abstract of the paper. I promise its just few lines.</p>
+
 <h2 id="the-process">The process</h2>
 
-<h2 id="large-tables">Large Tables</h2>
+<p class="message"><strong>NOTE</strong>:I am just going to present different parts of the project on the surface and important ones a bit deep. If you wanna know the whole thing please go to the paper where it is clearly explained or reach out to me:)</p>
+<ol>
+  <li>Research<br />
+The first task is to find out whats the current praticies and the history of killing I mean playing with mosquitoes.</li>
+</ol>
 
-<table class="scroll-table">
+<blockquote>
+  <p><strong><em>“There is no better teacher than history in determining the future. There are decades where nothing happens, and there are weeks where decades happen.”</em></strong> – Charlie Munger and Vladimir Lenin</p>
+</blockquote>
+
+<p>All of the research about mosquito detection/classification conducted can be catagoried into three parts which are Geospatial-based Approaches, Visual based Approaches, and Audio based Approaches. Although the studies I refered in the papar showed impressive results, the authors expressed that
+the data collected is informative but costly to collect, and places one wants to predict mosquito abundance might not have such
+detailed data as such places are socioeconomically disadvantaged.</p>
+
+<p>[8]shows that it is possible to make high-quality Mosquito wingbeat recordings with ordinary smartphones, even with a noisy
+background. Since mosquitoes rarely fly faster than one meter per second, they also discovered that the Doppler effect is
+insignificant for such recordings, with a recording error of about 2 Hz for mosquitoes up to 10 cm away from the microphone.</p>
+
+<ol>
+  <li>Data preprocessing<br />
+I have taken the dataset from the study[8]. It has 1381 files, including all 23 species of mosquitoes.
+ Most audio files
+had 8Khz as the sample rate, and the remaining files had 44.1Khz and 48Khz as sampling rates. Audio durations range from 0 to
+600 seconds for the files. The total duration of all the files is around 33k seconds. Used Torchaudio for data analysis.</li>
+</ol>
+
+<p>first, we convert all the files into WAV format, then we manually remove any part of the
+video that is not the wingbeat(other sounds or no sound), and previous studies removed noisy wingbeat audio clips, which we did
+not do in this analysis as we believe learning to detect wingbeats in noisy backgrounds will be a helpful feature in the actual
+application of the Model in real-time. Second, we divided the audio clips into 1.5-second chunks without overlapping such that
+no same information gets shared among train and test data. Last, we downsample all the audio files to 8Khz, the lowest in the
+dataset, in accordance with Nyquist–Shannon sampling theorem used by previous works[8].</p>
+
+<ol>
+  <li>Approach:<br />
+Our approach consists of CNNs and transformer encoders. CNN’s structure is inspired by the human brain’s primary visual
+cortex(V1). CNN layers are designed to capture the functions of simple and complex cells in V1. The function of simple cells can
+be best described as a linear function of the input in spatially confined receptive field[26]. The detector units in CNN have this
+function. On the other hand, Complex cells are resilient to little changes in the feature’s position. Pooling units of CNNs have the
+same function. Sparse interactions, parameter sharing, and equivariant representations, these essential properties of CNN that
+make them more computationally efficient and performance boosters in various tasks[27]. It is shown that CNN has the
+extraordinary ability to detect patterns in images[28]and Audio[22].</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">conv_block</span><span class="p">(</span><span class="n">n_in</span><span class="p">,</span> <span class="n">n_out</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="n">conv_bias</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">spin_conv</span><span class="p">():</span>
+    <span class="n">conv</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Conv1d</span><span class="p">(</span><span class="n">n_in</span><span class="p">,</span> <span class="n">n_out</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">stride</span><span class="o">=</span><span class="n">stride</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="n">conv_bias</span><span class="p">)</span>
+    <span class="n">nn</span><span class="p">.</span><span class="n">init</span><span class="p">.</span><span class="nf">kaiming_normal_</span><span class="p">(</span><span class="n">conv</span><span class="p">.</span><span class="n">weight</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">conv</span>
+  <span class="k">return</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Sequential</span><span class="p">(</span>
+                    <span class="nf">spin_conv</span><span class="p">(),</span>
+                    <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mf">0.1</span><span class="p">),</span>
+                    <span class="n">nn</span><span class="p">.</span><span class="nc">Sequential</span><span class="p">(</span>
+                        <span class="nc">TransposeLast</span><span class="p">(),</span>
+                        <span class="nc">Fp32LayerNorm</span><span class="p">(</span><span class="n">n_out</span><span class="p">,</span> <span class="n">elementwise_affine</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
+                        <span class="nc">TransposeLast</span><span class="p">(),</span>
+                    <span class="p">),</span>
+                    <span class="n">nn</span><span class="p">.</span><span class="nc">GELU</span><span class="p">(),</span>
+                <span class="p">)</span>
+<span class="k">def</span> <span class="nf">make_conv_layers</span><span class="p">():</span>
+        <span class="n">in_d</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">conv_dim</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">256</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">)]</span> <span class="o">+</span> <span class="p">[(</span><span class="mi">256</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)]</span><span class="o">*</span><span class="mi">4</span> <span class="o">+</span> <span class="p">[(</span><span class="mi">256</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)]</span> <span class="o">+</span> <span class="p">[(</span><span class="mi">256</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)]</span>
+        <span class="n">conv_layers</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">ModuleList</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">cl</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="n">conv_dim</span><span class="p">):</span>
+            <span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">stride</span><span class="p">)</span> <span class="o">=</span> <span class="n">cl</span>
+            <span class="n">conv_layers</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span>
+                <span class="nf">conv_block</span><span class="p">(</span>
+                    <span class="n">in_d</span><span class="p">,</span>
+                    <span class="n">dim</span><span class="p">,</span>
+                    <span class="n">k</span><span class="p">,</span>
+                    <span class="n">stride</span><span class="p">,</span>
+                    <span class="n">conv_bias</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+            <span class="n">in_d</span> <span class="o">=</span> <span class="n">dim</span> 
+        <span class="k">return</span> <span class="n">conv_layers</span>
+</code></pre></div></div>
+
+<p>Model contains a multi-layer convolutional feature encoder f: X-¿Z, which takes raw Audio as input and outputs latent
+representations(Z). After adding positional embeddings, these representations go into transformer encoder g: Z-
+¿C as shown in the fig1, concatenated with the classification token, to get global context vectors capturing information about the
+sequence, then the classification vector output is sent to a fully connected network for classification.
+The convolutional feature encoder has seven layers. Each layer has three components which are conv1d,
+layer normalization, and activation function GELU. Each layer has a different kernel size and stride value, as shown in table2. We
+use a dropout value of 0.1 during training. Most configurations are the same as Wav2vec2.0[22]. We also use a transformer in our
+Model. A transformer consists of an encoder and a decoder; as our Model is designed for the classification task, we use a
+Transformer encoder-only architecture which contains multi-head attention, residual connections, feed-forward layers, and layer
+normalization, the same as BERT[29]With classification token appended at the end rather than the usual starting position in BERT. We have two encoder layers with four heads in each and
+a dimension of 2048 for feed-forward networks using a dropout of 0.1. The last classification has 23 outputs, one for each species.
+These three parts are connected as shown in Table Fig1.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">wavmosLit</span><span class="p">(</span><span class="n">pl</span><span class="p">.</span><span class="n">LightningModule</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
+        <span class="n">self</span>
+        <span class="p">):</span>
+        <span class="nf">super</span><span class="p">(</span><span class="n">wavmosLit</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_all</span> <span class="o">=</span> <span class="nc">Precision</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_global</span> <span class="o">=</span> <span class="nc">Precision</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">macro</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_weighted</span> <span class="o">=</span> <span class="nc">Precision</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">weighted</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span> <span class="o">=</span> <span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_each</span> <span class="o">=</span> <span class="nc">Precision</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">none</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span> <span class="o">=</span> <span class="mi">23</span><span class="p">)</span>
+        
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_all</span> <span class="o">=</span> <span class="nc">Recall</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_global</span> <span class="o">=</span> <span class="nc">Recall</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">macro</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_weighted</span> <span class="o">=</span> <span class="nc">Recall</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">weighted</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span> <span class="o">=</span> <span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_each</span> <span class="o">=</span> <span class="nc">Recall</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">none</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span> <span class="o">=</span> <span class="mi">23</span><span class="p">)</span>
+        
+        <span class="n">self</span><span class="p">.</span><span class="n">f1</span> <span class="o">=</span> <span class="nc">F1Score</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">confmat</span> <span class="o">=</span> <span class="nc">ConfusionMatrix</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">valid_acc</span> <span class="o">=</span> <span class="n">torchmetrics</span><span class="p">.</span><span class="nc">Accuracy</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">num_classes</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">valid_acc_each</span> <span class="o">=</span>  <span class="n">torchmetrics</span><span class="p">.</span><span class="nc">Accuracy</span><span class="p">(</span><span class="n">task</span><span class="o">=</span><span class="sh">"</span><span class="s">multiclass</span><span class="sh">"</span><span class="p">,</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">none</span><span class="sh">'</span><span class="p">,</span> <span class="n">num_classes</span> <span class="o">=</span> <span class="mi">23</span><span class="p">)</span>
+        
+        <span class="n">self</span><span class="p">.</span><span class="n">inner_dim</span> <span class="o">=</span> <span class="mi">49</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">encoder</span> <span class="o">=</span> <span class="nc">TransformerEncoder</span><span class="p">()</span>
+        <span class="c1">#self.cls_emb = nn.Linear(1,49)
+</span>        <span class="n">self</span><span class="p">.</span><span class="n">last_layer</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span>
+            <span class="n">self</span><span class="p">.</span><span class="n">inner_dim</span><span class="p">,</span>
+            <span class="mi">23</span>
+            <span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_global_shared_layer</span> <span class="o">=</span> <span class="n">TORCH_GLOBAL_SHARED_LAYER</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_output</span> <span class="o">=</span> <span class="bp">None</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">inputs</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_output</span> <span class="o">=</span> <span class="n">inputs</span><span class="p">.</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">conv</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">_global_shared_layer</span><span class="p">:</span>
+             <span class="n">self</span><span class="p">.</span><span class="n">_output</span> <span class="o">=</span> <span class="nf">conv</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">_output</span><span class="p">)</span>
+        <span class="c1">#self.temp = torch.ones([self._output.shape[0],1,49],device = device)
+</span>        <span class="c1">#self.cls_token_emb = self.cls_emb(torch.tensor([50], dtype=torch.float,device = device))
+</span>        <span class="c1">#self.temp[:,0,:] = self.cls_token_emb
+</span>        <span class="n">self</span><span class="p">.</span><span class="n">_output</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">cat</span><span class="p">((</span><span class="n">self</span><span class="p">.</span><span class="n">_output</span><span class="p">,</span><span class="n">torch</span><span class="p">.</span><span class="nf">ones</span><span class="p">([</span><span class="n">self</span><span class="p">.</span><span class="n">_output</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="mi">1</span><span class="p">,</span><span class="mi">49</span><span class="p">],</span><span class="n">device</span> <span class="o">=</span> <span class="n">device</span><span class="p">)),</span><span class="mi">1</span><span class="p">)</span>                         
+        <span class="n">self</span><span class="p">.</span><span class="n">_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">encoder</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">_output</span><span class="p">)</span>
+        <span class="n">model_out</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">last_layer</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">_output</span><span class="p">[:,</span><span class="mi">256</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">model_out</span>
+
+    <span class="k">def</span> <span class="nf">training_step</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">batch</span><span class="p">,</span> <span class="n">batch_idx</span><span class="p">):</span>
+        <span class="n">inputs</span><span class="p">,</span> <span class="n">targets</span> <span class="o">=</span> <span class="n">batch</span>
+        
+        <span class="n">outputs</span> <span class="o">=</span> <span class="nf">self</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span>
+        
+        <span class="n">loss</span> <span class="o">=</span>  <span class="nf">loss_function</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="p">{</span><span class="sh">"</span><span class="s">loss</span><span class="sh">"</span><span class="p">:</span> <span class="n">loss</span><span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">self</span><span class="p">,</span><span class="n">stage</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span>
+
+        <span class="n">train_ids</span><span class="p">,</span><span class="n">test_ids</span> <span class="o">=</span> <span class="n">spilts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> 
+        <span class="n">self</span><span class="p">.</span><span class="n">training_data</span> <span class="o">=</span> <span class="nc">CustomImageDataset</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">train_subsampler</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nc">SubsetRandomSampler</span><span class="p">(</span><span class="n">train_ids</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">test_subsampler</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nc">SubsetRandomSampler</span><span class="p">(</span><span class="n">test_ids</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">train_dataloader</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    
+        <span class="n">train_loader</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nc">DataLoader</span><span class="p">(</span>
+                      <span class="n">self</span><span class="p">.</span><span class="n">training_data</span><span class="p">,</span> 
+                      <span class="n">batch_size</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">sampler</span><span class="o">=</span><span class="n">self</span><span class="p">.</span><span class="n">train_subsampler</span><span class="p">,</span><span class="n">num_workers</span> <span class="o">=</span> <span class="mi">8</span><span class="p">,</span><span class="n">pin_memory</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">train_loader</span>
+
+    <span class="k">def</span> <span class="nf">val_dataloader</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    
+        <span class="n">val_loader</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nc">DataLoader</span><span class="p">(</span>
+                      <span class="n">self</span><span class="p">.</span><span class="n">training_data</span><span class="p">,</span>
+                      <span class="n">batch_size</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">sampler</span><span class="o">=</span><span class="n">self</span><span class="p">.</span><span class="n">test_subsampler</span><span class="p">,</span><span class="n">num_workers</span> <span class="o">=</span> <span class="mi">8</span><span class="p">,</span><span class="n">pin_memory</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">val_loader</span>
+    
+    <span class="k">def</span> <span class="nf">validation_step</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">batch</span><span class="p">,</span> <span class="n">batch_idx</span><span class="p">):</span>
+        <span class="n">inputs</span><span class="p">,</span> <span class="n">targets</span> <span class="o">=</span> <span class="n">batch</span>
+        
+        <span class="n">outputs</span> <span class="o">=</span> <span class="nf">self</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span>
+        
+        <span class="n">loss</span> <span class="o">=</span>  <span class="nf">loss_function</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">valid_acc</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">valid_acc_each</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_all</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_global</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_weighted</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_each</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_all</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_global</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_weighted</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_each</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">confmat</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="p">{</span><span class="sh">"</span><span class="s">val_loss</span><span class="sh">"</span><span class="p">:</span> <span class="n">loss</span><span class="p">}</span>
+    
+    <span class="k">def</span> <span class="nf">training_epoch_end</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">training_step_outputs</span><span class="p">):</span>
+        <span class="n">avg_loss</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">stack</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="sh">'</span><span class="s">loss</span><span class="sh">'</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">training_step_outputs</span><span class="p">]).</span><span class="nf">mean</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="sh">"</span><span class="s">T_avg_loss</span><span class="sh">"</span><span class="p">,</span> <span class="n">avg_loss</span><span class="p">,</span><span class="n">prog_bar</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+        <span class="n">wandb</span><span class="p">.</span><span class="nf">log</span><span class="p">({</span><span class="sh">"</span><span class="s">T_avg_loss</span><span class="sh">"</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">})</span>
+        
+    <span class="k">def</span> <span class="nf">validation_epoch_end</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">outputs</span><span class="p">):</span>
+        <span class="n">avg_loss</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">stack</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="sh">'</span><span class="s">val_loss</span><span class="sh">'</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">outputs</span><span class="p">]).</span><span class="nf">mean</span><span class="p">()</span>
+
+        <span class="n">self</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="sh">"</span><span class="s">val_loss</span><span class="sh">"</span><span class="p">,</span><span class="n">avg_loss</span><span class="p">,</span><span class="n">prog_bar</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="sh">"</span><span class="s">val_acc</span><span class="sh">"</span><span class="p">,</span><span class="n">self</span><span class="p">.</span><span class="n">valid_acc</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span><span class="n">prog_bar</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+        <span class="n">wandb</span><span class="p">.</span><span class="nf">log</span><span class="p">({</span><span class="sh">"</span><span class="s">val_loss</span><span class="sh">"</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span>
+                   <span class="sh">'</span><span class="s">val_acc</span><span class="sh">'</span><span class="p">:</span><span class="n">self</span><span class="p">.</span><span class="n">valid_acc</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+                  <span class="sh">"</span><span class="s">recall_all</span><span class="sh">"</span><span class="p">:</span> <span class="n">self</span><span class="p">.</span><span class="n">recall_all</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+
+                  <span class="sh">"</span><span class="s">recall_global</span><span class="sh">"</span><span class="p">:</span><span class="n">self</span><span class="p">.</span><span class="n">recall_global</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+                  <span class="sh">"</span><span class="s">recall_weighted</span><span class="sh">"</span><span class="p">:</span><span class="n">self</span><span class="p">.</span><span class="n">recall_weighted</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+        
+                  <span class="sh">"</span><span class="s">precision_all</span><span class="sh">"</span><span class="p">:</span> <span class="n">self</span><span class="p">.</span><span class="n">precision_all</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+                  <span class="sh">"</span><span class="s">precision_global</span><span class="sh">"</span><span class="p">:</span><span class="n">self</span><span class="p">.</span><span class="n">precision_global</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+                  <span class="sh">"</span><span class="s">precision_weighted</span><span class="sh">"</span><span class="p">:</span><span class="n">self</span><span class="p">.</span><span class="n">precision_weighted</span><span class="p">.</span><span class="nf">compute</span><span class="p">(),</span>
+    
+                  <span class="c1">#"confusion_matrix": self.confmat.compute()
+</span>                  <span class="p">})</span>
+        <span class="n">wandb</span><span class="p">.</span><span class="nf">log</span><span class="p">({</span><span class="sa">f</span><span class="sh">"</span><span class="s">test_acc_each/acc-</span><span class="si">{</span><span class="n">ii</span><span class="si">}</span><span class="sh">"</span><span class="p">:</span> <span class="n">loss</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">loss</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">valid_acc_each</span><span class="p">.</span><span class="nf">compute</span><span class="p">())})</span>
+        <span class="n">wandb</span><span class="p">.</span><span class="nf">log</span><span class="p">({</span><span class="sa">f</span><span class="sh">"</span><span class="s">recall_each/recall_each-</span><span class="si">{</span><span class="n">ii</span><span class="si">}</span><span class="sh">"</span><span class="p">:</span> <span class="n">loss</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">loss</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">precision_each</span><span class="p">.</span><span class="nf">compute</span><span class="p">())})</span>
+        <span class="n">wandb</span><span class="p">.</span><span class="nf">log</span><span class="p">({</span><span class="sa">f</span><span class="sh">"</span><span class="s">precision_each/precision_each-</span><span class="si">{</span><span class="n">ii</span><span class="si">}</span><span class="sh">"</span><span class="p">:</span> <span class="n">loss</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">loss</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">precision_each</span><span class="p">.</span><span class="nf">compute</span><span class="p">())})</span>
+        
+        <span class="nf">print</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">training_data</span><span class="p">.</span><span class="n">lab_dict</span><span class="p">.</span><span class="nf">items</span><span class="p">()))</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">confmat</span><span class="p">.</span><span class="nf">compute</span><span class="p">())</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">confmat</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">valid_acc</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">valid_acc_each</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_all</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_global</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_weighted</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">recall_each</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_all</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_global</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_weighted</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">precision_each</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+        <span class="k">return</span> <span class="p">{</span><span class="sh">'</span><span class="s">val_loss</span><span class="sh">'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">}</span><span class="c1">#, 'log': tensorboard_logs}
+</span>    
+    <span class="k">def</span> <span class="nf">configure_optimizers</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="n">optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">optim</span><span class="p">.</span><span class="nc">Adam</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="nf">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">)),</span><span class="n">capturable</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+        <span class="n">scheduler</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">optim</span><span class="p">.</span><span class="n">lr_scheduler</span><span class="p">.</span><span class="nc">MultiStepLR</span><span class="p">(</span><span class="n">optimizer</span><span class="p">,</span> <span class="n">milestones</span><span class="o">=</span><span class="p">[</span><span class="mi">60</span><span class="p">],</span> <span class="n">gamma</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">optimizer</span><span class="p">],</span> <span class="p">[</span><span class="n">scheduler</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>To evaluate our approach, we choose the PyTorch framework to train the Model:
+1.We ran a hyperparameter search on the learning rate, revealing 0.0004 to be suitable.
+2.We analyzed batch sizes starting from 32 to 128 in multiples of 32 and found that size 64 gives the best performance,
+whereas the batch size of 128 resulted in complete hardware capacity utilization.
+3.The best-performing version used 64 as batch size and 2 ∗(0.0004) as the learning rate.
+We trained on every fold for 80 epochs before testing. Model parameters were optimized by Adam optimizer with standard
+configuration. The Model also used the LR scheduler with a milestone at the 60th epoch decaying by 0.1. The loss function used
+is Cross Entropy Loss, as it is used in training multi-class problems.</p>
+
+<h2 id="results">Results</h2>
+
+<table>
   <thead>
     <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
+      <th> </th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>Accuracy</th>
+      <th>Precision PW</th>
+      <th>PM</th>
+      <th>Recall RW</th>
+      <th>RM</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
+      <td>Average</td>
+      <td>0.8127</td>
+      <td>0.8127</td>
+      <td>0.8127</td>
+      <td>0.7209</td>
+      <td>0.8127</td>
+      <td>0.8127</td>
+      <td>0.7093</td>
     </tr>
     <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td>SD</td>
+      <td>0.0093</td>
+      <td>0.0093</td>
+      <td>0.0093</td>
+      <td>0.0456</td>
+      <td>0.0093</td>
+      <td>0.0093</td>
+      <td>0.0316</td>
     </tr>
   </tbody>
 </table>
+
+<p>The hybrid model achieved an overall 81.27%(±0.93) accuracy with Precision and Recall equalling accuracy up to six decimal
+points. Recall weighed also equals with Recall and differs in standard deviation about (±0.9311), and Precision weighted achieved
+81.70%(±1.02), Macro version of the precision score achieved is 72.09%(±4.56), Recall macro version percentage is
+70.93%(±3.16) showcasing its effectiveness in classifying mosquito species based on wingbeat sounds. Notably, both Precision and Recall closely matched this accuracy up to six decimal points, indicating precise performance. The model excelled in identifying Anopheles minimus and Culiseta incidens due to data availability and unique wingbeat frequency distributions. However, it struggled with Anopheles quadrimaculatus and Aedes mediovittatus, which had limited data. Despite some misclassifications, the model showed improvement in distinguishing species with overlapping wingbeat frequencies which was a big problem in previous models. Overall, its robust and balanced metrics, with standard deviations below 3%, demonstrate its reliability as a classifier.</p>
+
+<p class="figure"><img src="/assets/img/result_f1_acc.png" alt="Full-width image" class="lead" width="800" height="100" />
+A caption to an image.</p>
+
+<p class="figure"><img src="/assets/img/result_f1_acc_sd.png" alt="Full-width image" class="lead" width="800" height="100" />
+A caption to an image.</p>
+
+<p>Importantly, the proposed multi-class model’s accuracy surpassed that of previous studies that used spatial information, achieving higher accuracy levels, even though it relied solely on raw acoustic data from mosquito wingbeats. This model outperformed studies with accuracy levels of 65%, 78.12%, and 80%, showcasing its remarkable performance in mosquito species classification.</p>
+
+<p class="figure"><img src="/assets/img/result_recall_prec_avg.png" alt="Full-width image" class="lead" width="800" height="100" />
+A caption to an image.</p>
+
+<p class="figure"><img src="/assets/img/result_recall_prec_std.png" alt="Full-width image" class="lead" width="800" height="100" />
+A caption to an image.</p>
+
+<p class="figure"><img src="/assets/img/results_confu_matrix.png" alt="Full-width image" class="lead" width="800" height="100" />
+A caption to an image.</p>
 
 <h2 id="code-blocks">Code blocks</h2>
 
@@ -280,7 +449,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00-07:00</published><updated>2023-08-23T06:56:14-07:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 <p>There should be whitespace between paragraphs.</p>
 
@@ -463,7 +632,7 @@ A caption to an image.</p>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Example Content" /><published>2012-02-07T00:00:00-07:00</published><updated>2023-08-23T06:56:14-07:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Example Content" /><published>2012-02-07T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
 <blockquote>
   <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>

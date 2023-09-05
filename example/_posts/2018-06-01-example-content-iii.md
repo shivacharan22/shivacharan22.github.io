@@ -18,20 +18,280 @@ sitemap: false
 ## The reason for this project 
 Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, "Why not make a machine to kill all the bloody mosquitoes?". The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)
 
+## Global problem
+Check out the abstract of the paper. I promise its just few lines.
+
 ## The process
 
+**NOTE**:I am just going to present different parts of the project on the surface and important ones a bit deep. If you wanna know the whole thing please go to the paper where it is clearly explained or reach out to me:)
+{:.message}
+1. Research  
+The first task is to find out whats the current praticies and the history of killing I mean playing with mosquitoes.
 
-## Large Tables
+> ***"There is no better teacher than history in determining the future. There are decades where nothing happens, and there are weeks where decades happen."*** – Charlie Munger and Vladimir Lenin 
 
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
-| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
-| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
-{:.scroll-table}
+ All of the research about mosquito detection/classification conducted can be catagoried into three parts which are Geospatial-based Approaches, Visual based Approaches, and Audio based Approaches. Although the studies I refered in the papar showed impressive results, the authors expressed that
+the data collected is informative but costly to collect, and places one wants to predict mosquito abundance might not have such
+detailed data as such places are socioeconomically disadvantaged. 
+
+[8]shows that it is possible to make high-quality Mosquito wingbeat recordings with ordinary smartphones, even with a noisy
+background. Since mosquitoes rarely fly faster than one meter per second, they also discovered that the Doppler effect is
+insignificant for such recordings, with a recording error of about 2 Hz for mosquitoes up to 10 cm away from the microphone.
+
+2. Data preprocessing  
+I have taken the dataset from the study[8]. It has 1381 files, including all 23 species of mosquitoes.
+ Most audio files
+had 8Khz as the sample rate, and the remaining files had 44.1Khz and 48Khz as sampling rates. Audio durations range from 0 to
+600 seconds for the files. The total duration of all the files is around 33k seconds. Used Torchaudio for data analysis.
+
+first, we convert all the files into WAV format, then we manually remove any part of the
+video that is not the wingbeat(other sounds or no sound), and previous studies removed noisy wingbeat audio clips, which we did
+not do in this analysis as we believe learning to detect wingbeats in noisy backgrounds will be a helpful feature in the actual
+application of the Model in real-time. Second, we divided the audio clips into 1.5-second chunks without overlapping such that
+no same information gets shared among train and test data. Last, we downsample all the audio files to 8Khz, the lowest in the
+dataset, in accordance with Nyquist–Shannon sampling theorem used by previous works[8]. 
+
+3. Approach:  
+Our approach consists of CNNs and transformer encoders. CNN’s structure is inspired by the human brain’s primary visual
+cortex(V1). CNN layers are designed to capture the functions of simple and complex cells in V1. The function of simple cells can
+be best described as a linear function of the input in spatially confined receptive field[26]. The detector units in CNN have this
+function. On the other hand, Complex cells are resilient to little changes in the feature’s position. Pooling units of CNNs have the
+same function. Sparse interactions, parameter sharing, and equivariant representations, these essential properties of CNN that
+make them more computationally efficient and performance boosters in various tasks[27]. It is shown that CNN has the
+extraordinary ability to detect patterns in images[28]and Audio[22].
+
+~~~python
+def conv_block(n_in, n_out, k, stride, conv_bias):
+  def spin_conv():
+    conv = nn.Conv1d(n_in, n_out, k, stride=stride, bias=conv_bias)
+    nn.init.kaiming_normal_(conv.weight)
+    return conv
+  return nn.Sequential(
+                    spin_conv(),
+                    nn.Dropout(p=0.1),
+                    nn.Sequential(
+                        TransposeLast(),
+                        Fp32LayerNorm(n_out, elementwise_affine=True),
+                        TransposeLast(),
+                    ),
+                    nn.GELU(),
+                )
+def make_conv_layers():
+        in_d = 1
+        conv_dim = [(256, 10, 5)] + [(256, 3, 2)]*4 + [(256,2,2)] + [(256,2,2)]
+        conv_layers = nn.ModuleList()
+        for i, cl in enumerate(conv_dim):
+            (dim, k, stride) = cl
+            conv_layers.append(
+                conv_block(
+                    in_d,
+                    dim,
+                    k,
+                    stride,
+                    conv_bias=False,
+                )
+            )
+            in_d = dim 
+        return conv_layers
+~~~
+
+Model contains a multi-layer convolutional feature encoder f: X-¿Z, which takes raw Audio as input and outputs latent
+representations(Z). After adding positional embeddings, these representations go into transformer encoder g: Z-
+¿C as shown in the fig1, concatenated with the classification token, to get global context vectors capturing information about the
+sequence, then the classification vector output is sent to a fully connected network for classification.
+The convolutional feature encoder has seven layers. Each layer has three components which are conv1d,
+layer normalization, and activation function GELU. Each layer has a different kernel size and stride value, as shown in table2. We
+use a dropout value of 0.1 during training. Most configurations are the same as Wav2vec2.0[22]. We also use a transformer in our
+Model. A transformer consists of an encoder and a decoder; as our Model is designed for the classification task, we use a
+Transformer encoder-only architecture which contains multi-head attention, residual connections, feed-forward layers, and layer
+normalization, the same as BERT[29]With classification token appended at the end rather than the usual starting position in BERT. We have two encoder layers with four heads in each and
+a dimension of 2048 for feed-forward networks using a dropout of 0.1. The last classification has 23 outputs, one for each species.
+These three parts are connected as shown in Table Fig1.
+
+~~~python
+class wavmosLit(pl.LightningModule):
+    def __init__(
+        self
+        ):
+        super(wavmosLit, self).__init__()
+        self.precision_all = Precision(task="multiclass",num_classes=23)
+        self.precision_global = Precision(task="multiclass",average='macro', num_classes=23)
+        self.precision_weighted = Precision(task="multiclass",average='weighted', num_classes = 23)
+        self.precision_each = Precision(task="multiclass",average='none', num_classes = 23)
+        
+        self.recall_all = Recall(task="multiclass",num_classes=23)
+        self.recall_global = Recall(task="multiclass",average='macro', num_classes=23)
+        self.recall_weighted = Recall(task="multiclass",average='weighted', num_classes = 23)
+        self.recall_each = Recall(task="multiclass",average='none', num_classes = 23)
+        
+        self.f1 = F1Score(task="multiclass",num_classes=23)
+        self.confmat = ConfusionMatrix(task="multiclass",num_classes=23)
+        self.valid_acc = torchmetrics.Accuracy(task="multiclass",num_classes=23)
+        self.valid_acc_each =  torchmetrics.Accuracy(task="multiclass",average='none', num_classes = 23)
+        
+        self.inner_dim = 49
+        self.encoder = TransformerEncoder()
+        #self.cls_emb = nn.Linear(1,49)
+        self.last_layer = torch.nn.Linear(
+            self.inner_dim,
+            23
+            )
+        self._global_shared_layer = TORCH_GLOBAL_SHARED_LAYER
+        self._output = None
+
+    def forward(self, inputs):
+        self._output = inputs.unsqueeze(1)
+        for conv in self._global_shared_layer:
+             self._output = conv(self._output)
+        #self.temp = torch.ones([self._output.shape[0],1,49],device = device)
+        #self.cls_token_emb = self.cls_emb(torch.tensor([50], dtype=torch.float,device = device))
+        #self.temp[:,0,:] = self.cls_token_emb
+        self._output = torch.cat((self._output,torch.ones([self._output.shape[0],1,49],device = device)),1)                         
+        self._output = self.encoder(self._output)
+        model_out = self.last_layer(self._output[:,256])
+        return model_out
+
+    def training_step(self, batch, batch_idx):
+        inputs, targets = batch
+        
+        outputs = self(inputs)
+        
+        loss =  loss_function(outputs, targets)
+
+        return {"loss": loss}
+
+    def setup(self,stage = False):
+
+        train_ids,test_ids = spilts[1] 
+        self.training_data = CustomImageDataset(dataset)
+        self.train_subsampler = torch.utils.data.SubsetRandomSampler(train_ids)
+        self.test_subsampler = torch.utils.data.SubsetRandomSampler(test_ids)
+
+    def train_dataloader(self):
+    
+        train_loader = torch.utils.data.DataLoader(
+                      self.training_data, 
+                      batch_size=64, sampler=self.train_subsampler,num_workers = 8,pin_memory=True)
+        return train_loader
+
+    def val_dataloader(self):
+    
+        val_loader = torch.utils.data.DataLoader(
+                      self.training_data,
+                      batch_size=64, sampler=self.test_subsampler,num_workers = 8,pin_memory=True)
+        return val_loader
+    
+    def validation_step(self, batch, batch_idx):
+        inputs, targets = batch
+        
+        outputs = self(inputs)
+        
+        loss =  loss_function(outputs, targets)
+        self.valid_acc.update(outputs, targets)
+        self.valid_acc_each.update(outputs, targets)
+        self.recall_all.update(outputs, targets)
+        self.recall_global.update(outputs, targets)
+        self.recall_weighted.update(outputs, targets)
+        self.recall_each.update(outputs, targets)
+        self.precision_all.update(outputs, targets)
+        self.precision_global.update(outputs, targets)
+        self.precision_weighted.update(outputs, targets)
+        self.precision_each.update(outputs, targets)
+        self.confmat.update(outputs, targets)
+        
+        return {"val_loss": loss}
+    
+    def training_epoch_end(self, training_step_outputs):
+        avg_loss = torch.stack([x['loss'] for x in training_step_outputs]).mean()
+        self.log("T_avg_loss", avg_loss,prog_bar = True)
+        wandb.log({"T_avg_loss": avg_loss})
+        
+    def validation_epoch_end(self, outputs):
+        avg_loss = torch.stack([x['val_loss'] for x in outputs]).mean()
+
+        self.log("val_loss",avg_loss,prog_bar=True)
+        self.log("val_acc",self.valid_acc.compute(),prog_bar = True)
+        wandb.log({"val_loss": avg_loss,
+                   'val_acc':self.valid_acc.compute(),
+                  "recall_all": self.recall_all.compute(),
+
+                  "recall_global":self.recall_global.compute(),
+                  "recall_weighted":self.recall_weighted.compute(),
+        
+                  "precision_all": self.precision_all.compute(),
+                  "precision_global":self.precision_global.compute(),
+                  "precision_weighted":self.precision_weighted.compute(),
+    
+                  #"confusion_matrix": self.confmat.compute()
+                  })
+        wandb.log({f"test_acc_each/acc-{ii}": loss for ii, loss in enumerate(self.valid_acc_each.compute())})
+        wandb.log({f"recall_each/recall_each-{ii}": loss for ii, loss in enumerate(self.precision_each.compute())})
+        wandb.log({f"precision_each/precision_each-{ii}": loss for ii, loss in enumerate(self.precision_each.compute())})
+        
+        print(list(self.training_data.lab_dict.items()))
+        print(self.confmat.compute())
+        self.confmat.reset()
+        self.valid_acc.reset()
+        self.valid_acc_each.reset()
+        self.recall_all.reset()
+        self.recall_global.reset()
+        self.recall_weighted.reset()
+        self.recall_each.reset()
+        self.precision_all.reset()
+        self.precision_global.reset()
+        self.precision_weighted.reset()
+        self.precision_each.reset()
+        return {'val_loss': avg_loss}#, 'log': tensorboard_logs}
+    
+    def configure_optimizers(self):
+        optimizer = torch.optim.Adam(self.parameters(), lr=2*(10**(-4)),capturable = True)
+        scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[60], gamma=0.1)
+        return [optimizer], [scheduler]
+~~~
+
+To evaluate our approach, we choose the PyTorch framework to train the Model:
+1.We ran a hyperparameter search on the learning rate, revealing 0.0004 to be suitable.
+2.We analyzed batch sizes starting from 32 to 128 in multiples of 32 and found that size 64 gives the best performance,
+whereas the batch size of 128 resulted in complete hardware capacity utilization.
+3.The best-performing version used 64 as batch size and 2 ∗(0.0004) as the learning rate.
+We trained on every fold for 80 epochs before testing. Model parameters were optimized by Adam optimizer with standard
+configuration. The Model also used the LR scheduler with a milestone at the 60th epoch decaying by 0.1. The loss function used
+is Cross Entropy Loss, as it is used in training multi-class problems.
+
+## Results
+
+|           | Precision | Recall | Accuracy | Precision PW | PM | Recall RW | RM |
+|-----------|-----------|--------|----------|--------------|----|-----------|----|
+| Average   |   0.8127  | 0.8127 |  0.8127  |    0.7209    | 0.8127 |   0.8127  | 0.7093 |
+| SD        |   0.0093  | 0.0093 |  0.0093  |    0.0456    | 0.0093 |   0.0093  | 0.0316 |
+
+The hybrid model achieved an overall 81.27%(±0.93) accuracy with Precision and Recall equalling accuracy up to six decimal
+points. Recall weighed also equals with Recall and differs in standard deviation about (±0.9311), and Precision weighted achieved
+81.70%(±1.02), Macro version of the precision score achieved is 72.09%(±4.56), Recall macro version percentage is
+70.93%(±3.16) showcasing its effectiveness in classifying mosquito species based on wingbeat sounds. Notably, both Precision and Recall closely matched this accuracy up to six decimal points, indicating precise performance. The model excelled in identifying Anopheles minimus and Culiseta incidens due to data availability and unique wingbeat frequency distributions. However, it struggled with Anopheles quadrimaculatus and Aedes mediovittatus, which had limited data. Despite some misclassifications, the model showed improvement in distinguishing species with overlapping wingbeat frequencies which was a big problem in previous models. Overall, its robust and balanced metrics, with standard deviations below 3%, demonstrate its reliability as a classifier.
+
+![Full-width image](/assets/img/result_f1_acc.png){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
+
+![Full-width image](/assets/img/result_f1_acc_sd.png){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
+
+Importantly, the proposed multi-class model's accuracy surpassed that of previous studies that used spatial information, achieving higher accuracy levels, even though it relied solely on raw acoustic data from mosquito wingbeats. This model outperformed studies with accuracy levels of 65%, 78.12%, and 80%, showcasing its remarkable performance in mosquito species classification.
+
+![Full-width image](/assets/img/result_recall_prec_avg.png){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
+
+![Full-width image](/assets/img/result_recall_prec_std.png){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
+
+![Full-width image](/assets/img/results_confu_matrix.png){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
+
 
 
 ## Code blocks
