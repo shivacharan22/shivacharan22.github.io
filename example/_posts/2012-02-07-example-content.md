@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Example Content
+title: Volatility-prediction
 description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  Optiver Realized Volatility Prediction Kaggle competition
+  image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 hide_last_modified: true
 ---

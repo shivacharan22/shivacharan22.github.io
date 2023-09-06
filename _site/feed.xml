@@ -1,94 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-05T11:51:41-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2020-07-03T00:00:00-04:00</published><updated>2023-08-29T22:04:55-04:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-06T14:30:11-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2020-07-03T00:00:00-04:00</published><updated>2023-08-29T22:04:55-04:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<hr />
 
-<p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
+<h2 id="results-go-to-github-run-for-ui">Results go to github run (for UI)</h2>
+<blockquote>
+  <p>streamlit run app.py</p>
+</blockquote>
 
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#linking-in-style" id="markdown-toc-linking-in-style">Linking in Style</a></li>
-  <li><a href="#ready-for-the-big-screen" id="markdown-toc-ready-for-the-big-screen">Ready for the Big Screen</a></li>
-  <li><a href="#whats-in-the-cards" id="markdown-toc-whats-in-the-cards">What’s in the Cards?</a></li>
-  <li><a href="#built-in-search" id="markdown-toc-built-in-search">Built-In Search</a></li>
-  <li><a href="#auto-hiding-navbar" id="markdown-toc-auto-hiding-navbar">Auto-Hiding Navbar</a></li>
-  <li><a href="#sticky-table-of-contents" id="markdown-toc-sticky-table-of-contents">Sticky Table of Contents</a></li>
-  <li><a href="#and-much-more" id="markdown-toc-and-much-more">…and much more</a></li>
-  <li><a href="#even-more-to-come" id="markdown-toc-even-more-to-come">Even More to Come</a></li>
-  <li><a href="#get-it-now" id="markdown-toc-get-it-now">Get It Now</a></li>
-</ul>
+<h2 id="problem-and-summary-of-the-project">Problem and summary of the project</h2>
 
-<h2 id="linking-in-style">Linking in Style</h2>
+<p>Vision language navigation is a task in Embodied AI research where an agent has to navigate to a location mentioned given language instruction and visual inputs. However, the vision language navigation task poses some challenges, like Visual Complexity, Language Ambiguity, Multimodal Integration, Generalization to Unseen Environments, Dealing with Uncertainty, Zero-shot Learning, Real-time Decision-making, Evaluation Metrics, Human- Agent Interaction, and Long-Term Dependencies. In this project, we concentrate on Human- Agent Interaction and Long-Term Dependencies Challenges for which we introduce HCAM and RLHF mechanisms to our model and training, which enable the agent to think like a human while navigating and storing to infer to make future informed decisions in the same episode as cross episode memory is not tested in this project. We use the Mattersim simulator for an environment with 1.2 TB of data. The dataset comprises 194,400 RGB-D images of 90 building-scale scenes with 21,567 navigation instructions. Our model will be trained using contrastive supervised learning with ground actions, and RLHF techniques will be used as mentioned below. We observe its success in Human-Agent Interaction and Long-Term dependencies and failure in Generalization to Unseen Environments. The metrics used are success rate 42%, Trajectory length - x, and Navigation error - Y.</p>
 
-<p>Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the <a href="#linking-in-style">link style</a> has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.</p>
+<h2 id="intution">Intution</h2>
 
-<h2 id="ready-for-the-big-screen">Ready for the Big Screen</h2>
+<p><a href="/assets/img/arvl.jpeg">The layout of the whole network</a></p>
 
-<p>The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I’ve made adjustments, such as centering the content column for better reading ergonomics.</p>
+<h3 id="why-hcam">why HCAM</h3>
 
-<p>With version 9, Hydejack takes full advantage of large displays. Whether it’s design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+<p>Regarding Long-Term Dependencies, VLN tasks often require agents to remember and refer to previous states, actions, or instructions to make informed navigation choices. Capturing and utilizing long-term dependencies effectively is a challenge, particularly when memory and context span over extended periods. HCAM introduced by can be experimented upon in this case. The original paper presents a novel approach called “hierarchical memory” HCAM to enhance the decision-making capabilities of RL agents. To evaluate the effectiveness of hierarchical memory, the authors conduct experiments, including Remembering the Ballet, which involves the agent recalling its previous observations and going to that particular dancer after seeing a 12-32 dance episode. Memory and recall were tested in all of these experiments. The results demonstrate that agents equipped with hierarchical memory outperform those without memory or with a single-level memory.
+Furthermore, the hierarchical memory allows the agents to generalize their knowledge across different tasks and adapt their decision-making strategies to unseen situations. Overall, the paper presents the concept of hierarchical memory as a valuable mechanism for RL agents to improve their decision-making abilities. By enabling agents to perform mental time travel and leverage past experiences, the hierarchical memory enhances the agents’ ability to generalize, adapt, and make informed decisions in dynamic environments. We will be using this mechanism in this paper.</p>
 
-<h2 id="whats-in-the-cards">What’s in the Cards?</h2>
+<p><a href="assets/img/Hcam.png">HCAM</a></p>
 
-<p>Hydejack 9 now lets you use content cards for both projects and posts. 
-The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the <code class="language-plaintext highlighter-rouge">blog</code> layout. The new <code class="language-plaintext highlighter-rouge">grid</code> layout lets you do that.</p>
+<h3 id="why-rlhf">why RLHF</h3>
 
-<p>Good images are key to making the most out of content cards. For that reason, a <a href="/docs/basics/#adding-images">chapter on images</a> has been added to the documentation.</p>
+<p>The next part of this paper uses RLHF. The concept of Reinforcement Learning with Human Feedback (RLHF) has been explored in various studies, but pinpointing the exact first paper on RLHF can be challenging due to the vast literature in the field. However, one influential early article on RLHF is “Apprenticeship Learning via Inverse Reinforcement Learning” by Pieter Abbeel and Andrew Y. Ng. In this paper, the authors introduce the concept of apprenticeship learning, which combines ideas from inverse reinforcement learning (IRL) and RLHF. The focus is on learning from demonstrations provided by an expert rather than relying solely on trial-and-error exploration. By incorporating human demonstrations, the RL agent can learn from an expert’s behavior and acquire skills more efficiently. The paper proposes a mathematical framework for apprenticeship learning, which involves estimating the underlying reward function from expert demonstrations and then using this estimated reward function to train the RL agent.
+RLHF was initially introduced as an approach to address the challenges of sparse reward signals and accelerate the learning progress in RL. Traditional RL methods rely on trial-and- error exploration to learn optimal policies, which can be time-consuming and inefficient. RLHF leverages human expertise to provide additional guidance and feedback to the RL agent, helping it learn faster and perform better. In RLHF, human feedback can take various forms, such as demonstrations, preferences, or direct evaluations. Demonstrations involve a human expert showcasing desired behaviors or providing example trajectories for the RL agent to learn from. Preferences involve the comparison of different actions or trajectories to indicate preferred choices. Direct evaluations provide explicit feedback or reward signals to guide the learning process. For example, we generate multiple trajectories, manually compare them in two pairs, and select the most successful one.</p>
 
-<h2 id="built-in-search">Built-In Search</h2>
+<p><a href="assets/img/bgi.jpeg">Step-2</a>
+An additional step-2 was to run with contrastive learning on the whole network with simulated game plays with langauge and image pairs as shown above.</p>
 
-<p>Hydejack now has Built-In Search. It even works offline. I’ve been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
-
-<p>The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.</p>
-
-<p>Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.</p>
-
-<h2 id="auto-hiding-navbar">Auto-Hiding Navbar</h2>
-
-<p>A navbar that’s there when you need it, and disappears when you don’t. Simple as that.</p>
-
-<h2 id="sticky-table-of-contents">Sticky Table of Contents</h2>
-
-<p>Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
-What’s unique about it is that it simply picks up the table of contents already created by kramdown’s <code class="language-plaintext highlighter-rouge">{:toc}</code> tag and transparently upgrades it to a fully dynamic version.</p>
-
-<h2 id="and-much-more">…and much more</h2>
-
-<p>Other noteworthy changes include:</p>
-<ul>
-  <li>Support for Jekyll 4</li>
-  <li>Choice between MathJax and KaTeX for math rendering</li>
-  <li>Use of <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> for drastically improved page building speeds</li>
-  <li>New variables configuration file — adjust content width, sidebar width, font size, etc…</li>
-  <li>…and the option to disable grouping projects by year.</li>
-</ul>
-
-<p>Read the the <a href="/CHANGELOG/" class="heading flip-title">CHANGELOG</a> for the full scope of features and improvements made in Hydejack 9.
-Maybe just glance at it to confirm that it is indeed a pretty long list.</p>
-
-<h2 id="even-more-to-come">Even More to Come</h2>
-
-<p>New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.</p>
-
-<h2 id="get-it-now">Get It Now</h2>
-<p>The Free Version of Hydejack is now availabe on <a href="https://rubygems.org/gems/jekyll-theme-hydejack">RubyGems</a>
-and for the first time also on <a href="https://github.com/hydecorp/hydejack/packages">GitHub Packages</a>. 
-The source code is available on <a href="https://github.com/hydecorp/hydejack">GitHub</a> as always.</p>
-
-<p>The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:</p>
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>If you are a fan of the old two-column layout, or don’t like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-
-      <p>Search was mainly tested for English and German. Please let me know about issues in other languages. 
-  While I’ve tried to find a multi-language solution, most showed drastically worse  results for the English base case.
-  If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2018-06-01T00:00:00-04:00</published><updated>2023-08-29T21:54:07-04:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<hr />
+<h2 id="for-detailed-information-please-check-out-this-report">For detailed information please check out this report()[]</h2>
+<h2 id="results-go-to-github-run">Results go to github run</h2>
+<blockquote>
+  <p>streamlit run app.py</p>
+</blockquote>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2018-06-01T00:00:00-04:00</published><updated>2023-09-05T11:52:31-04:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<hr />
 <h2 id="the-reason-for-this-project">The reason for this project</h2>
 <p>Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, “Why not make a machine to kill all the bloody mosquitoes?”. The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)</p>
 
@@ -449,7 +394,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learning-Embedding-for-images-using-Deep-leaning</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Learning-Embedding-for-images-using-Deep-leaning" /><published>2017-11-23T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 <p>There should be whitespace between paragraphs.</p>
 
@@ -632,7 +577,7 @@ A caption to an image.</p>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Example Content" /><published>2012-02-07T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Google Universal Image Embedding Kaggle competition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Volatility-prediction</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Volatility-prediction" /><published>2012-02-07T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
 <blockquote>
   <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -764,4 +709,4 @@ A caption to an image.</p>
   </tfoot>
 </table>
 
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Howdy! This is an example blog post that shows several types of HTML content supported in this theme.]]></summary></entry></feed>
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Optiver Realized Volatility Prediction Kaggle competition image: /assets/img/blog/example-content-ii.jpg]]></summary></entry></feed>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Example Content II
+title: Learning-Embedding-for-images-using-Deep-leaning
 description: >
-  A page showing how regular markdown content is styled in Hydejack.
+  Google Universal Image Embedding Kaggle competition
 image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 ---
