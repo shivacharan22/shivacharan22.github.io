@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-06T14:30:11-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2020-07-03T00:00:00-04:00</published><updated>2023-08-29T22:04:55-04:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-07T11:11:03-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Personal website of shivacharan oruganti, a grad student at Boston University.
+</subtitle><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2023-01-10T00:00:00-05:00</published><updated>2023-09-06T21:32:53-04:00</updated><id>http://localhost:4000/research_projects/VLN-with-HCAM-RLHF</id><content type="html" xml:base="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/"><![CDATA[<hr />
 
 <h2 id="results-go-to-github-run-for-ui">Results go to github run (for UI)</h2>
 <blockquote>
@@ -31,9 +31,11 @@ An additional step-2 was to run with contrastive learning on the whole network w
 
 <h2 id="for-detailed-information-please-check-out-this-report">For detailed information please check out this report()[]</h2>
 <h2 id="results-go-to-github-run">Results go to github run</h2>
+<h2 id="video">video</h2>
+<h2 id="table">Table</h2>
 <blockquote>
   <p>streamlit run app.py</p>
-</blockquote>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2018-06-01T00:00:00-04:00</published><updated>2023-09-05T11:52:31-04:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<hr />
+</blockquote>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/research_projects/2022-08-01-HYD_NN/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2022-08-01T00:00:00-04:00</published><updated>2023-09-05T16:27:33-04:00</updated><id>http://localhost:4000/research_projects/HYD_NN</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-08-01-HYD_NN/"><![CDATA[<hr />
 <h2 id="the-reason-for-this-project">The reason for this project</h2>
 <p>Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, “Why not make a machine to kill all the bloody mosquitoes?”. The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)</p>
 
@@ -394,319 +396,84 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learning-Embedding-for-images-using-Deep-leaning</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Learning-Embedding-for-images-using-Deep-leaning" /><published>2017-11-23T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The problem</title><link href="http://localhost:4000/research_projects/2022-07-11-learning-embedding/" rel="alternate" type="text/html" title="The problem" /><published>2022-07-11T00:00:00-04:00</published><updated>2023-09-06T21:16:42-04:00</updated><id>http://localhost:4000/research_projects/learning-embedding</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-07-11-learning-embedding/"><![CDATA[<p>In the competition, we were asked to develop models that can efficiently retrieve images from a large database. For each query image, the model is expected to retrieve the most similar images from an set hidden to us.</p>
 
-<p>There should be whitespace between paragraphs.</p>
-
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
-
-<p><a href="another-page">Link to another page</a>.</p>
-
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#header-2" id="markdown-toc-header-2">Header 2</a>    <ul>
-      <li><a href="#header-3" id="markdown-toc-header-3">Header 3</a>        <ul>
-          <li><a href="#header-4" id="markdown-toc-header-4">Header 4</a>            <ul>
-              <li><a href="#header-5" id="markdown-toc-header-5">Header 5</a>                <ul>
-                  <li><a href="#header-6" id="markdown-toc-header-6">Header 6</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="#theres-a-horizontal-rule-below-this" id="markdown-toc-theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</a></li>
-      <li><a href="#here-is-an-unordered-list" id="markdown-toc-here-is-an-unordered-list">Here is an unordered list:</a></li>
-      <li><a href="#and-an-ordered-list" id="markdown-toc-and-an-ordered-list">And an ordered list:</a></li>
-      <li><a href="#and-a-nested-list" id="markdown-toc-and-a-nested-list">And a nested list:</a></li>
-      <li><a href="#small-image" id="markdown-toc-small-image">Small image</a></li>
-      <li><a href="#large-image" id="markdown-toc-large-image">Large image</a></li>
-      <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition lists</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="header-2">Header 2</h2>
-
-<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
-
-<h3 id="header-3">Header 3</h3>
-
+<p>In their words</p>
 <blockquote>
-  <p>This is a blockquote following a header.</p>
-
-  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+  <p>“In this competition, the developed models are expected to retrieve relevant database images to a given query image (ie, the model should retrieve database images containing the same object as the query). The images in our dataset comprise a variety of object types, such as apparel, artwork, landmarks, furniture, packaged goods, among others.”</p>
 </blockquote>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
-<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nf">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./lang/</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
-  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
-<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
-  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<h4 id="header-4">Header 4</h4>
+<h2 id="process">Process</h2>
 
 <ul>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-</ul>
-
-<h5 id="header-5">Header 5</h5>
-
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
-
-<h6 id="header-6">Header 6</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">head1</th>
-      <th style="text-align: left">head two</th>
-      <th style="text-align: left">three</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good swedish fish</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td style="text-align: left">hmm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td style="text-align: left">yumm</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
-
-<hr />
-
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
-
-<ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
-</ul>
-
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="and-a-nested-list">And a nested list:</h3>
-
-<ul>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item
-        <ul>
-          <li>level 3 item</li>
-          <li>level 3 item</li>
-        </ul>
-      </li>
-    </ul>
+  <li>
+    <p>First thing is we are not given a dataset so we have to make a dataset from public use licenced datasets only*. So I have prepared a datset of 25k images with more or less equal ratios of the provided catogaries. Here are the sources from which the dataset was made:</p>
   </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/naturalseeker/triplet-data https://www.kaggle.com/datasets/abhijeetbhilare/world-cuisines</li>
+    </ol>
   </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/naturalseeker/packed-goods</li>
+    </ol>
   </li>
-  <li>level 1 item</li>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/naturalseeker/packed-goods</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/naturalseeker/images-for-google-comp</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/watts2/glove6b50dtxt</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/naturalseeker/door-image</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/datasets/jaidevchittoria/babies-products-and-toys</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>https://www.kaggle.com/competitions/google-universal-image-embedding</li>
+    </ol>
+  </li>
+  <li>Next I have to select a training method its an obivous choice to fine tune already available models and use triplet loss. I used Swin Transformer and DeiT. Swin transformer shined but I had to freeze the layers when finetuning.</li>
 </ul>
 
-<h3 id="small-image">Small image</h3>
+<p>check out the project github <a href="https://github.com/shivacharan22/Learning-Embedding-for-images-using-Deep-leaning/tree/main">here</a></p>
 
-<p><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="" /></p>
+<p>Together 100k pair images from 25k initial images.</p>
 
-<h3 id="large-image">Large image</h3>
+<h2 id="results-">Results :</h2>
+<p>95 % accuracy on test data(10%) separated from above.</p>
 
-<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="" /></p>
+<h3 id="test-sample">Test sample:</h3>
 
-<h3 id="definition-lists">Definition lists</h3>
-
-<dl>
-  <dt>Name</dt>
-  <dd>Godzilla</dd>
-  <dt>Born</dt>
-  <dd>1952</dd>
-  <dt>Birthplace</dt>
-  <dd>Japan</dd>
-  <dt>Color</dt>
-  <dd>Green</dd>
-</dl>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Google Universal Image Embedding Kaggle competition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Volatility-prediction</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Volatility-prediction" /><published>2012-02-07T00:00:00-05:00</published><updated>2023-08-23T09:56:14-04:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
-
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-<h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
-
-<p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+<p><img width="517" alt="Screenshot 2023-01-12 at 3 20 01 AM" src="https://user-images.githubusercontent.com/54499416/211925349-3036f946-3ba5-49b3-9172-279046938351.png" /></p>
 
 <ul>
-  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">**To bold text**</code>.</li>
-  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">*To italicize text*</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should be defined like this <code class="language-plaintext highlighter-rouge">*[HTML]: HyperText Markup Language</code>.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">~~deleted~~</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+  <li>
+    <p>Image original 
+ <img width="274" alt="image" src="https://user-images.githubusercontent.com/54499416/211925837-592b071a-f56e-477e-b95a-e8f7a1bd5417.png" /></p>
+  </li>
+  <li>Image 1 comparision positive score of <strong>3.39</strong>
+<img width="317" alt="image" src="https://user-images.githubusercontent.com/54499416/211926371-7a9e4def-9931-4dab-8454-3812d5b1b7ad.png" /></li>
+  <li>Image 2 comparision Negitive score of 11.35
+<img width="222" alt="image" src="https://user-images.githubusercontent.com/54499416/211926822-76b11449-b691-4f99-9af1-9caf2562e5fa.png" /></li>
 </ul>
 
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+<p>Model predicts Image 1 is more similar to original than Image 2.</p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Google Universal Image Embedding Kaggle competition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Volatility-prediction</title><link href="http://localhost:4000/research_projects/2021-06-23-Realized-Volatility/" rel="alternate" type="text/html" title="Volatility-prediction" /><published>2021-06-23T00:00:00-04:00</published><updated>2023-09-07T10:11:10-04:00</updated><id>http://localhost:4000/research_projects/Realized%20Volatility</id><content type="html" xml:base="http://localhost:4000/research_projects/2021-06-23-Realized-Volatility/"><![CDATA[<hr />
 
-<h2 id="heading-2">Heading 2</h2>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-<h3 id="heading-3">Heading 3</h3>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h4 id="heading-4">Heading 4</h4>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h5 id="heading-5">Heading 5</h5>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h6 id="heading-6">Heading 6</h6>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h2 id="code">Code</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis <code class="language-plaintext highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="lists">Lists</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-<ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
-</ul>
-
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
-
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-<dl>
-  <dt>HyperText Markup Language (<abbr title="HyperText Markup Language">HTML</abbr>)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-  <dt>Cascading Style Sheets (<abbr title="Cascading Style Sheets">CSS</abbr>)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-  <dt>JavaScript (<abbr title="JavaScript">JS</abbr>)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
-
-<p><img src="https://via.placeholder.com/800x400" alt="800x400" title="Large example image" /></p>
-
-<p><img src="https://via.placeholder.com/400x200" alt="400x200" title="Medium example image" /></p>
-
-<p><img src="https://via.placeholder.com/200x200" alt="200x200" title="Small example image" /></p>
-
-<h2 id="tables">Tables</h2>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th style="text-align: left">Upvotes</th>
-      <th style="text-align: left">Downvotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Alice</td>
-      <td style="text-align: left">10</td>
-      <td style="text-align: left">11</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Bob</td>
-      <td style="text-align: left">4</td>
-      <td style="text-align: left">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Charlie</td>
-      <td style="text-align: left">7</td>
-      <td style="text-align: left">9</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Totals</td>
-      <td style="text-align: left">21</td>
-      <td style="text-align: left">23</td>
-    </tr>
-  </tfoot>
-</table>
-
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Optiver Realized Volatility Prediction Kaggle competition image: /assets/img/blog/example-content-ii.jpg]]></summary></entry></feed>
+<p>Check out the github: <a href="">here</a></p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Optiver Realized Volatility Prediction Kaggle competition image: /assets/img/blog/example-content-ii.jpg]]></summary></entry></feed>

@@ -39,6 +39,8 @@ An additional step-2 was to run with contrastive learning on the whole network w
 
 ## For detailed information please check out this report()[]
 ## Results go to github run 
+## video
+## Table
 > streamlit run app.py
 
 
