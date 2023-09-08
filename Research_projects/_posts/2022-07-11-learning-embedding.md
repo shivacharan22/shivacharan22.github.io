@@ -3,7 +3,7 @@ layout: post
 title: Learning-Embedding-for-images-using-Deep-leaning
 description: >
   Google Universal Image Embedding Kaggle competition
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/learn_emb.png
 sitemap: false
 ---
 
