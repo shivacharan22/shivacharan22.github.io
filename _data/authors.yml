@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am currently a graduate student at Boston University pursuing a Master's degree in Artificial Intelligence. I have done my bachelors in computer science and engineering from VIT,vellore. 
+    I am currently a graduate student at Boston University pursuing a Master's degree in Artificial Intelligence. I have a bachelors degree in computer science and engineering from VIT university, vellore. 
 
   # This photo will be used in the about section
   picture:

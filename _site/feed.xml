@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-07T21:49:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Personal website of shivacharan oruganti, a grad student at Boston University.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-07T22:06:32-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Personal website of shivacharan oruganti, a grad student at Boston University.
 </subtitle><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2023-01-10T00:00:00-05:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/VLN-with-HCAM-RLHF</id><content type="html" xml:base="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/"><![CDATA[<hr />
 
 <h2 id="results-go-to-github-and-run-the-below-commandfor-ui">Results go to github and run the below command(for UI)</h2>
@@ -26,14 +26,50 @@ Furthermore, the hierarchical memory allows the agents to generalize their knowl
 <p>The next part of this paper uses RLHF. The concept of Reinforcement Learning with Human Feedback (RLHF) has been explored in various studies, but pinpointing the exact first paper on RLHF can be challenging due to the vast literature in the field. However, one influential early article on RLHF is “Apprenticeship Learning via Inverse Reinforcement Learning” by Pieter Abbeel and Andrew Y. Ng. In this paper, the authors introduce the concept of apprenticeship learning, which combines ideas from inverse reinforcement learning (IRL) and RLHF. The focus is on learning from demonstrations provided by an expert rather than relying solely on trial-and-error exploration. By incorporating human demonstrations, the RL agent can learn from an expert’s behavior and acquire skills more efficiently. The paper proposes a mathematical framework for apprenticeship learning, which involves estimating the underlying reward function from expert demonstrations and then using this estimated reward function to train the RL agent.
 RLHF was initially introduced as an approach to address the challenges of sparse reward signals and accelerate the learning progress in RL. Traditional RL methods rely on trial-and- error exploration to learn optimal policies, which can be time-consuming and inefficient. RLHF leverages human expertise to provide additional guidance and feedback to the RL agent, helping it learn faster and perform better. In RLHF, human feedback can take various forms, such as demonstrations, preferences, or direct evaluations. Demonstrations involve a human expert showcasing desired behaviors or providing example trajectories for the RL agent to learn from. Preferences involve the comparison of different actions or trajectories to indicate preferred choices. Direct evaluations provide explicit feedback or reward signals to guide the learning process. For example, we generate multiple trajectories, manually compare them in two pairs, and select the most successful one.</p>
 
-<p><img src="/assets/img/bgi.jpeg" alt="Step-2" /></p>
+<p><img src="/assets/img/Blank diagram (4).png" alt="Step-2" /></p>
 
 <p>An additional step-2 was to run with contrastive learning on the whole network with simulated game plays with langauge and image pairs as shown above.</p>
 
 <h2 id="successful-navigation-sample">successful navigation sample:</h2>
 <p>https://github.com/shivacharan22/shivacharan22.github.io/assets/54499416/5c2073a6-a176-4f40-8d33-e9abcbf1e5f2</p>
 
-<h2 id="for-detailed-information-please-check-out-this-report">For detailed information please check out this <a href="https://github.com/shivacharan22/shivacharan22.github.io/files/12554322/Capstone_report_upload_.pdf">!Report!</a></h2>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/research_projects/2022-08-01-HYD_NN/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2022-08-01T00:00:00-04:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/HYD_NN</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-08-01-HYD_NN/"><![CDATA[<hr />
+<h2 id="for-detailed-information-please-check-out-this-report">For detailed information please check out this <a href="https://github.com/shivacharan22/shivacharan22.github.io/files/12554322/Capstone_report_upload_.pdf">!Report!</a></h2>
+
+<h2 id="appendix">Appendix:</h2>
+
+<h3 id="setup-i-used-to-run">Setup I used to run:</h3>
+
+<p>I used GCP VM with 104 gb RAM with A100 GPU and 32 CPUs with Ubantu18.05 OS.</p>
+
+<p>Below are the commands if you wanna fasten your process:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.0-1_all.deb
+sudo dpkg -i cuda-keyring_1.0-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda
+
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+sudo apt update
+sudo apt-cache policy docker-ce
+sudo apt install docker-ce
+sudo systemctl status docker
+sudo usermod -aG docker ${USER}
+
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
+  sudo apt-key add -
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
+  sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
+sudo pkill -SIGHUP dockerd
+xhost + nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04
+cd /root/mount/Matterport3DSimulator
+git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git
+cd Matterport3DSimulator
+</code></pre></div></div>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/research_projects/2022-08-01-HYD_NN/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2022-08-01T00:00:00-04:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/HYD_NN</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-08-01-HYD_NN/"><![CDATA[<hr />
 <h2 id="the-reason-for-this-project">The reason for this project</h2>
 <p>Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, “Why not make a machine to kill all the bloody mosquitoes?”. The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)</p>
 
@@ -472,6 +508,6 @@ A caption to an image.</p>
 <img width="222" alt="image" src="https://user-images.githubusercontent.com/54499416/211926822-76b11449-b691-4f99-9af1-9caf2562e5fa.png" /></li>
 </ul>
 
-<p>Model predicts Image 1 is more similar to original than Image 2.</p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Google Universal Image Embedding Kaggle competition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/learn_emb.png" /><media:content medium="image" url="http://localhost:4000/assets/img/learn_emb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Volatility-prediction</title><link href="http://localhost:4000/research_projects/2021-06-23-Realized-Volatility/" rel="alternate" type="text/html" title="Volatility-prediction" /><published>2021-06-23T00:00:00-04:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/Realized%20Volatility</id><content type="html" xml:base="http://localhost:4000/research_projects/2021-06-23-Realized-Volatility/"><![CDATA[<hr />
+<p>Model predicts Image 1 is more similar to original than Image 2.</p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Google Universal Image Embedding Kaggle competition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/learn_emb.png" /><media:content medium="image" url="http://localhost:4000/assets/img/learn_emb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Volatility-prediction</title><link href="http://localhost:4000/research_projects/2021-06-23-Realized-Volatility/" rel="alternate" type="text/html" title="Volatility-prediction" /><published>2021-06-23T00:00:00-04:00</published><updated>2023-09-07T21:50:54-04:00</updated><id>http://localhost:4000/research_projects/Realized%20Volatility</id><content type="html" xml:base="http://localhost:4000/research_projects/2021-06-23-Realized-Volatility/"><![CDATA[<hr />
 
-<p>Check out the github: <a href="https://github.com/shivacharan22/Volatility-prediction">here</a></p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Optiver Realized Volatility Prediction Kaggle competition image: /assets/img/brandbird.png]]></summary></entry></feed>
+<p>Check out the github: <a href="https://github.com/shivacharan22/Volatility-prediction">here</a></p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Optiver Realized Volatility Prediction Kaggle competition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/brandbird.png" /><media:content medium="image" url="http://localhost:4000/assets/img/brandbird.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
