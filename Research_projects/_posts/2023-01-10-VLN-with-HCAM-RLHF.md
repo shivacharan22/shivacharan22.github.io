@@ -36,9 +36,10 @@ RLHF was initially introduced as an approach to address the challenges of sparse
 An additional step-2 was to run with contrastive learning on the whole network with simulated game plays with langauge and image pairs as shown above.
 
 
-## For detailed information please check out this report()[]
-## video
-## Table
-> streamlit run app.py
+## successful navigation sample:
+https://github.com/shivacharan22/shivacharan22.github.io/assets/54499416/5c2073a6-a176-4f40-8d33-e9abcbf1e5f2
+
+
+## For detailed information about the project please check out this [report](assets/img/Capstone_report_upload_.pdf) I have made. 
 
 
