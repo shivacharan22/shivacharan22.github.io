@@ -2,8 +2,8 @@
 layout: post
 title: Volatility-prediction
 description: >
-  Optiver Realized Volatility Prediction Kaggle competition
-  image: /assets/img/brandbird.png
+  Optiver Realized Volatility Prediction Kaggle competition  
+image: /assets/img/brandbird.png
 sitemap: false
 hide_last_modified: true
 ---
