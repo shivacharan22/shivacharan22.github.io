@@ -52,31 +52,70 @@ I used GCP VM with 104 gb RAM with A100 GPU and 32 CPUs with Ubantu18.05 OS.
 
 Below are the commands if you wanna fasten your process:
 ```
-sudo wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.0-1_all.deb
-sudo dpkg -i cuda-keyring_1.0-1_all.deb
-sudo apt-get update
-sudo apt-get -y install cuda
+sudo wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.0-1_all.deb:
 
-sudo apt update
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-sudo apt update
-sudo apt-cache policy docker-ce
-sudo apt install docker-ce
-sudo systemctl status docker
-sudo usermod -aG docker ${USER}
+#This command uses wget to download a Debian package (cuda-keyring) from an NVIDIA repository. The package is used to authenticate CUDA-related software.
+sudo dpkg -i cuda-keyring_1.0-1_all.deb:
 
-curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
-  sudo apt-key add -
-distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
-curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
-  sudo tee /etc/apt/sources.list.d/nvidia-docker.list
-sudo apt-get update
-sudo apt-get install -y nvidia-docker2
-sudo pkill -SIGHUP dockerd
-xhost + nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04
-cd /root/mount/Matterport3DSimulator
-git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git
-cd Matterport3DSimulator
+#This command installs the previously downloaded Debian package (cuda-keyring) using dpkg. This package likely contains GPG keys and other authentication-related data for NVIDIA's CUDA repository.
+sudo apt-get update:
+
+#This command updates the package lists for the APT package manager, ensuring that you have the latest information about available packages and their versions.
+sudo apt-get -y install cuda:
+
+#This command installs CUDA, which is a parallel computing platform and application programming interface (API) developed by NVIDIA. CUDA is commonly used for GPU-accelerated computations.
+sudo apt update:
+
+#This command updates the package lists again.
+sudo apt install apt-transport-https ca-certificates curl software-properties-common:
+
+#This command installs various utilities and libraries necessary for handling HTTPS, certificates, and adding software repositories.
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -:
+
+#This command fetches the Docker GPG key and adds it to the list of trusted keys on your system. It's used to verify the authenticity of Docker packages.
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable":
+
+#This command adds the official Docker repository to your system's list of software sources.
+sudo apt update:
+
+#This command updates the package lists again to include the Docker repository.
+sudo apt-cache policy docker-ce:
+
+#This command checks the available versions of Docker in the newly added repository.
+sudo apt install docker-ce:
+
+#This command installs Docker Community Edition (CE), a containerization platform.
+sudo systemctl status docker:
+
+#This command checks the status of the Docker service, confirming that it is running.
+sudo usermod -aG docker ${USER}:
+
+#This command adds your user account to the "docker" group, allowing you to run Docker commands without using "sudo."
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -:
+
+#This command fetches the NVIDIA Docker GPG key and adds it to your system's trusted keys.
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list:
+
+#This command adds the NVIDIA Docker repository to your system's list of software sources.
+sudo apt-get update:
+
+#This command updates the package lists once more to include the NVIDIA Docker repository.
+sudo apt-get install -y nvidia-docker2:
+
+#This command installs NVIDIA Docker 2, which enables you to use NVIDIA GPUs with Docker containers.
+sudo pkill -SIGHUP dockerd:
+
+#This command sends a signal to the Docker daemon (dockerd) to reload its configuration. This is often necessary after installing Docker-related software.
+xhost +:
+
+#This command allows any user to connect to your X server (GUI) temporarily.
+nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume pwd:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04:
+
+#This is a complex command that appears to run a Docker container named "mattersim:9.2-devel-ubuntu18.04." The container is configured to use NVIDIA Docker, share the X server display, and mount specific directories as volumes.
+cd /root/mount/Matterport3DSimulator:
+
+#This command changes the current directory to "/root/mount/Matterport3DSimulator."
+git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git:
+
+#This command clones a Git repository named "Matterport3DSimulator" and its submodules from the specified URL.
 ```

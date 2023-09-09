@@ -748,7 +748,7 @@ code,pre {
 
 code {
     padding: .25em .5em;
-    background-color: var(--gray-bg);
+    background-color: #95a9f5;
     font-size: smaller
 }
 
@@ -843,7 +843,7 @@ div.highlight>button {
 }
 
 div.highlight>button:hover {
-    background: var(--gray-bg)
+    background: #95a9f5
 }
 
 div.highlight>button.copy-success>.icon-copy {
@@ -1037,7 +1037,7 @@ hr.dingbat:after {
 .message,.note-sm,#markdown-toc,.note {
     margin-bottom: 1rem;
     padding: 1rem;
-    color: var(--gray-text);
+    color: #95a9f5;
     background-color: var(--gray-bg);
     margin-left: -1rem;
     margin-right: -1rem
@@ -2163,7 +2163,7 @@ main>footer.content>p {
 }
 
 body .highlight,body pre.highlight {
-    color: #383a42
+    color: #919dd1
 }
 
 body .highlight .ge {
@@ -2179,7 +2179,7 @@ body .highlight .ow {
 }
 
 body .highlight .n,body .highlight .nf,body .highlight .nn,body .highlight .o,body .highlight .p {
-    color: #383a42
+    color: #97a2d1
 }
 
 body .highlight .c,body .highlight .c1,body .highlight .cm,body .highlight .cp,body .highlight .cs {
@@ -2246,12 +2246,12 @@ body .highlight .ln:after {
 }
 
 body .highlight .hll {
-    color: #383a42;
+    color: #919dce;
     background-color: #e5e5e6
 }
 
 body .highlight .hl {
-    color: #383a42;
+    color: #99a2c7;
     background-color: #e5e5e6
 }
 
@@ -2265,7 +2265,7 @@ body .highlight .language-json .kc {
 
 @media screen {
     body.light-mode .highlight,body.light-mode pre.highlight {
-        color: #383a42
+        color: #8893bd
     }
 
     body.light-mode .highlight .ge {
@@ -2281,11 +2281,11 @@ body .highlight .language-json .kc {
     }
 
     body.light-mode .highlight .n,body.light-mode .highlight .nf,body.light-mode .highlight .nn,body.light-mode .highlight .o,body.light-mode .highlight .p {
-        color: #383a42
+        color: #9da6c8
     }
 
     body.light-mode .highlight .c,body.light-mode .highlight .c1,body.light-mode .highlight .cm,body.light-mode .highlight .cp,body.light-mode .highlight .cs {
-        color: #a0a1a7;
+        color: #a0a8d2;
         font-style: italic
     }
 
@@ -2348,12 +2348,12 @@ body .highlight .language-json .kc {
     }
 
     body.light-mode .highlight .hll {
-        color: #383a42;
+        color: #9ca8da;
         background-color: #e5e5e6
     }
 
     body.light-mode .highlight .hl {
-        color: #383a42;
+        color: #8b97ca;
         background-color: #e5e5e6
     }
 

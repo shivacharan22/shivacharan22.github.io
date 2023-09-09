@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-07T22:06:32-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Personal website of shivacharan oruganti, a grad student at Boston University.
-</subtitle><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2023-01-10T00:00:00-05:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/VLN-with-HCAM-RLHF</id><content type="html" xml:base="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-09T00:24:01-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">shivacharan oruganti</title><subtitle>Personal website of shivacharan oruganti, a grad student at Boston University.
+</subtitle><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><entry><title type="html">Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback</title><link href="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/" rel="alternate" type="text/html" title="Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback" /><published>2023-01-10T00:00:00-05:00</published><updated>2023-09-07T22:53:08-04:00</updated><id>http://localhost:4000/research_projects/VLN-with-HCAM-RLHF</id><content type="html" xml:base="http://localhost:4000/research_projects/2023-01-10-VLN-with-HCAM-RLHF/"><![CDATA[<hr />
 
 <h2 id="results-go-to-github-and-run-the-below-commandfor-ui">Results go to github and run the below command(for UI)</h2>
 <blockquote>
@@ -42,34 +42,73 @@ RLHF was initially introduced as an approach to address the challenges of sparse
 <p>I used GCP VM with 104 gb RAM with A100 GPU and 32 CPUs with Ubantu18.05 OS.</p>
 
 <p>Below are the commands if you wanna fasten your process:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.0-1_all.deb
-sudo dpkg -i cuda-keyring_1.0-1_all.deb
-sudo apt-get update
-sudo apt-get -y install cuda
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.0-1_all.deb:
 
-sudo apt update
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-sudo apt update
-sudo apt-cache policy docker-ce
-sudo apt install docker-ce
-sudo systemctl status docker
-sudo usermod -aG docker ${USER}
+#This command uses wget to download a Debian package (cuda-keyring) from an NVIDIA repository. The package is used to authenticate CUDA-related software.
+sudo dpkg -i cuda-keyring_1.0-1_all.deb:
 
-curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
-  sudo apt-key add -
-distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
-curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
-  sudo tee /etc/apt/sources.list.d/nvidia-docker.list
-sudo apt-get update
-sudo apt-get install -y nvidia-docker2
-sudo pkill -SIGHUP dockerd
-xhost + nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04
-cd /root/mount/Matterport3DSimulator
-git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git
-cd Matterport3DSimulator
-</code></pre></div></div>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/research_projects/2022-08-01-HYD_NN/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2022-08-01T00:00:00-04:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/HYD_NN</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-08-01-HYD_NN/"><![CDATA[<hr />
+#This command installs the previously downloaded Debian package (cuda-keyring) using dpkg. This package likely contains GPG keys and other authentication-related data for NVIDIA's CUDA repository.
+sudo apt-get update:
+
+#This command updates the package lists for the APT package manager, ensuring that you have the latest information about available packages and their versions.
+sudo apt-get -y install cuda:
+
+#This command installs CUDA, which is a parallel computing platform and application programming interface (API) developed by NVIDIA. CUDA is commonly used for GPU-accelerated computations.
+sudo apt update:
+
+#This command updates the package lists again.
+sudo apt install apt-transport-https ca-certificates curl software-properties-common:
+
+#This command installs various utilities and libraries necessary for handling HTTPS, certificates, and adding software repositories.
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -:
+
+#This command fetches the Docker GPG key and adds it to the list of trusted keys on your system. It's used to verify the authenticity of Docker packages.
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable":
+
+#This command adds the official Docker repository to your system's list of software sources.
+sudo apt update:
+
+#This command updates the package lists again to include the Docker repository.
+sudo apt-cache policy docker-ce:
+
+#This command checks the available versions of Docker in the newly added repository.
+sudo apt install docker-ce:
+
+#This command installs Docker Community Edition (CE), a containerization platform.
+sudo systemctl status docker:
+
+#This command checks the status of the Docker service, confirming that it is running.
+sudo usermod -aG docker ${USER}:
+
+#This command adds your user account to the "docker" group, allowing you to run Docker commands without using "sudo."
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -:
+
+#This command fetches the NVIDIA Docker GPG key and adds it to your system's trusted keys.
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list:
+
+#This command adds the NVIDIA Docker repository to your system's list of software sources.
+sudo apt-get update:
+
+#This command updates the package lists once more to include the NVIDIA Docker repository.
+sudo apt-get install -y nvidia-docker2:
+
+#This command installs NVIDIA Docker 2, which enables you to use NVIDIA GPUs with Docker containers.
+sudo pkill -SIGHUP dockerd:
+
+#This command sends a signal to the Docker daemon (dockerd) to reload its configuration. This is often necessary after installing Docker-related software.
+xhost +:
+
+#This command allows any user to connect to your X server (GUI) temporarily.
+nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume pwd:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04:
+
+#This is a complex command that appears to run a Docker container named "mattersim:9.2-devel-ubuntu18.04." The container is configured to use NVIDIA Docker, share the X server display, and mount specific directories as volumes.
+cd /root/mount/Matterport3DSimulator:
+
+#This command changes the current directory to "/root/mount/Matterport3DSimulator."
+git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git:
+
+#This command clones a Git repository named "Matterport3DSimulator" and its submodules from the specified URL.
+</code></pre></div></div>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/model.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/img/model.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies</title><link href="http://localhost:4000/research_projects/2022-08-01-HYD_NN/" rel="alternate" type="text/html" title="A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies" /><published>2022-08-01T00:00:00-04:00</published><updated>2023-09-08T00:04:43-04:00</updated><id>http://localhost:4000/research_projects/HYD_NN</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-08-01-HYD_NN/"><![CDATA[<hr />
 <h2 id="the-reason-for-this-project">The reason for this project</h2>
 <p>Whenever I visit places with mosquitoes around, I am the one who gets bitten a lot compared to others (My blood is tasty). At this time, I was taking my higher-level undergraduate classes as a junior in college, where I had to come up with project ideas for my courses. My brain whispered, “Why not make a machine to kill all the bloody mosquitoes?”. The first thing I looked up was, will the world survive without mosquitoes? The answer is absolutely not! So killing only which bit me seems fair. Hence, the machine should be able to detect mosquitoes and kill them somehow. The detection part is okay, but the killing part by automation seems a bit dangerous as pointing lasers can be harmful if false positives occur in the system that can hurt humans. Finally, after much thought, I had to settle for building the first part of my idea and leave the killing to the mosquito-killing lamps. (You will be thrilled to know that the first part is as important if not more important than building the second one as you read this post.)</p>
 
@@ -92,9 +131,7 @@ The first task is to find out whats the current praticies and the history of kil
 the data collected is informative but costly to collect, and places one wants to predict mosquito abundance might not have such
 detailed data as such places are socioeconomically disadvantaged.</p>
 
-<p>[8]shows that it is possible to make high-quality Mosquito wingbeat recordings with ordinary smartphones, even with a noisy
-background. Since mosquitoes rarely fly faster than one meter per second, they also discovered that the Doppler effect is
-insignificant for such recordings, with a recording error of about 2 Hz for mosquitoes up to 10 cm away from the microphone.</p>
+<p><a href="https://elifesciences.org/articles/27854">8</a>shows that it is possible to make high-quality Mosquito wingbeat recordings with ordinary smartphones, even with a noisy background. Since mosquitoes rarely fly faster than one meter per second, they also discovered that the Doppler effect is insignificant for such recordings, with a recording error of about 2 Hz for mosquitoes up to 10 cm away from the microphone.</p>
 
 <ol>
   <li>Data preprocessing<br />
@@ -109,17 +146,13 @@ video that is not the wingbeat(other sounds or no sound), and previous studies r
 not do in this analysis as we believe learning to detect wingbeats in noisy backgrounds will be a helpful feature in the actual
 application of the Model in real-time. Second, we divided the audio clips into 1.5-second chunks without overlapping such that
 no same information gets shared among train and test data. Last, we downsample all the audio files to 8Khz, the lowest in the
-dataset, in accordance with Nyquist–Shannon sampling theorem used by previous works[8].</p>
+dataset, in accordance with Nyquist–Shannon sampling theorem used by previous works<a href="https://elifesciences.org/articles/27854">8</a>.</p>
 
 <ol>
   <li>Approach:<br />
 Our approach consists of CNNs and transformer encoders. CNN’s structure is inspired by the human brain’s primary visual
 cortex(V1). CNN layers are designed to capture the functions of simple and complex cells in V1. The function of simple cells can
-be best described as a linear function of the input in spatially confined receptive field[26]. The detector units in CNN have this
-function. On the other hand, Complex cells are resilient to little changes in the feature’s position. Pooling units of CNNs have the
-same function. Sparse interactions, parameter sharing, and equivariant representations, these essential properties of CNN that
-make them more computationally efficient and performance boosters in various tasks[27]. It is shown that CNN has the
-extraordinary ability to detect patterns in images[28]and Audio[22].</li>
+be best described as a linear function of the input in spatially confined receptive field<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8010506/">26</a>. The detector units in CNN have this function. On the other hand, Complex cells are resilient to little changes in the feature’s position. Pooling units of CNNs have the same function. Sparse interactions, parameter sharing, and equivariant representations, these essential properties of CNN that make them more computationally efficient and performance boosters in various tasks<a href="https://www.deeplearningbook.org/">27</a>. It is shown that CNN has the extraordinary ability to detect patterns in images and Audio.</li>
 </ol>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">conv_block</span><span class="p">(</span><span class="n">n_in</span><span class="p">,</span> <span class="n">n_out</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="n">conv_bias</span><span class="p">):</span>
@@ -377,60 +410,7 @@ A caption to an image.</p>
 A caption to an image.</p>
 
 <p class="figure"><img src="/assets/img/results_confu_matrix.png" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The problem</title><link href="http://localhost:4000/research_projects/2022-07-11-learning-embedding/" rel="alternate" type="text/html" title="The problem" /><published>2022-07-11T00:00:00-04:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/learning-embedding</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-07-11-learning-embedding/"><![CDATA[<p>In the competition, we were asked to develop models that can efficiently retrieve images from a large database. For each query image, the model is expected to retrieve the most similar images from an set hidden to us.</p>
+A caption to an image.</p>]]></content><author><name>shivacharan oruganti</name><email>shivaco@bu.edu</email></author><category term="Research_projects" /><summary type="html"><![CDATA[A Hybrid Network Combining Cnn and Transformer Encoder to Classify Mosquitoes Based on Wing Beat Frequencies]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/arc1.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/arc1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The problem</title><link href="http://localhost:4000/research_projects/2022-07-11-learning-embedding/" rel="alternate" type="text/html" title="The problem" /><published>2022-07-11T00:00:00-04:00</published><updated>2023-09-07T21:45:26-04:00</updated><id>http://localhost:4000/research_projects/learning-embedding</id><content type="html" xml:base="http://localhost:4000/research_projects/2022-07-11-learning-embedding/"><![CDATA[<p>In the competition, we were asked to develop models that can efficiently retrieve images from a large database. For each query image, the model is expected to retrieve the most similar images from an set hidden to us.</p>
 
 <p>In their words</p>
 <blockquote>
