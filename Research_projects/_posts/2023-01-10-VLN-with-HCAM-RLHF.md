@@ -9,7 +9,7 @@ sitemap: false
 ---
 ---
 
-## Results go to github and run the below command(for UI)
+## Results go to [github](https://github.com/shivacharan22/VLN-Using-Hierarchical-Chunk-Memory-Attention-and-RLHF) and run the below command(for UI)
 > streamlit run app.py
 
 ## Problem and summary of the project
@@ -40,6 +40,8 @@ An additional step-2 was to run with contrastive learning on the whole network w
 ## successful navigation sample:
 https://github.com/shivacharan22/shivacharan22.github.io/assets/54499416/5c2073a6-a176-4f40-8d33-e9abcbf1e5f2
 
+## Unsuccessful navigation sample:
+https://github.com/shivacharan22/VLN-Using-Hierarchical-Chunk-Memory-Attention-and-RLHF/blob/main/videos/val_v2.mp4
 
 ## For detailed information please check out this [!Report!](https://github.com/shivacharan22/shivacharan22.github.io/files/12554322/Capstone_report_upload_.pdf)
 
