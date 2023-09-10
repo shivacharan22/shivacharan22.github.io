@@ -16,18 +16,18 @@ In their words
 
 ## Process
 
-* First thing is we are not given a dataset so we have to make a dataset from public use licenced datasets only*. So I have prepared a datset of 25k images with more or less equal ratios of the provided catogaries. Here are the sources from which the dataset was made:
+* The first thing is we are not given a dataset so we have to make a dataset from public use licenced datasets only*. So I have prepared a dataset of 25k images with more or less equal ratios of the provided categories. Here are the sources from which the dataset was made:
 
-- 1. https://www.kaggle.com/datasets/naturalseeker/triplet-data https://www.kaggle.com/datasets/abhijeetbhilare/world-cuisines 
-- 2. https://www.kaggle.com/datasets/naturalseeker/packed-goods 
-- 3. https://www.kaggle.com/datasets/naturalseeker/packed-goods 
-- 4. https://www.kaggle.com/datasets/naturalseeker/images-for-google-comp 
-- 5. https://www.kaggle.com/datasets/watts2/glove6b50dtxt 
-- 6. https://www.kaggle.com/datasets/naturalseeker/door-image 
-- 7. https://www.kaggle.com/datasets/jaidevchittoria/babies-products-and-toys 
-- 8. https://www.kaggle.com/competitions/google-universal-image-embedding
+- https://www.kaggle.com/datasets/naturalseeker/triplet-data https://www.kaggle.com/datasets/abhijeetbhilare/world-cuisines 
+- https://www.kaggle.com/datasets/naturalseeker/packed-goods 
+- https://www.kaggle.com/datasets/naturalseeker/packed-goods 
+- https://www.kaggle.com/datasets/naturalseeker/images-for-google-comp 
+- https://www.kaggle.com/datasets/watts2/glove6b50dtxt 
+- https://www.kaggle.com/datasets/naturalseeker/door-image 
+- https://www.kaggle.com/datasets/jaidevchittoria/babies-products-and-toys 
+- https://www.kaggle.com/competitions/google-universal-image-embedding
 
-* Next I have to select a training method its an obivous choice to fine tune already available models and use triplet loss. I used Swin Transformer and DeiT. Swin transformer shined but I had to freeze the layers when finetuning.
+* Next, I have to select a training method it's an obvious choice to fine-tune already available models and use triplet loss. I used Swin Transformer and DeiT. Swin transformer shined but I had to freeze the layers when finetuning.
 
 check out the project github [here](https://github.com/shivacharan22/Learning-Embedding-for-images-using-Deep-leaning/tree/main)
 
