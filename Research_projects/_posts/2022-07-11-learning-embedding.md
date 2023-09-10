@@ -6,7 +6,7 @@ description: >
 image: /assets/img/learn_emb.png
 sitemap: false
 ---
-
+---
 ## The problem 
 
 In the competition, we were asked to develop models that can efficiently retrieve images from a large database. For each query image, the model is expected to retrieve the most similar images from an set hidden to us.
