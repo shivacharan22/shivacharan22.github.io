@@ -36,6 +36,52 @@ RLHF was initially introduced as an approach to address the challenges of sparse
 
 An additional step-2 was to run with contrastive learning on the whole network with simulated game plays with langauge and image pairs as shown above.
 
+```python
+class RLHF_net(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.action_space = 6
+        self.language_encoder = language_encoder()
+        #self.image_encoder = image_encoder()
+        self.cross_attention_1 = attention_Layer()
+        self.HCAM_1 = HTMBlock(
+                    dim = 512,
+                    heads = 4, 
+                    topk_mems = 4,
+                    mem_chunk_size = 32,
+                    add_pos_enc = False
+                    )
+        self.text_transoform = nn.Linear(768, 512)
+        self.cross_attention_2 = attention_Layer()
+        self.HCAM_2 =  HTMBlock(
+                    dim = 512,
+                    heads = 4, 
+                    topk_mems = 4,
+                    mem_chunk_size = 32,
+                    add_pos_enc = False
+                    )
+        # Define a custom output layer for the action distribution.
+        # The code below is just an example, please modify as needed.
+        self.logits = layer_init(nn.Linear(512, self.action_space), std=0.01)
+        self.value_f = layer_init(nn.Linear(512, 1), std=1)
+    
+    def forward(self, image, text, memories) -> Tensor:
+        image_features = image
+        image_features = image_features.unsqueeze(1)
+        text_features = self.language_encoder(text)
+        text_features = torch.from_numpy(text_features)
+        text_features = text_features.unsqueeze(1)
+        transform_text_features = self.text_transoform(text_features)
+        Memory = self.cross_attention_1(text_features, image_features, image_features)
+        x = self.HCAM_1(Memory, memories)
+        x = self.cross_attention_2(x, text_features, text_features)
+        x = self.HCAM_2(x, memories)
+        logits = self.logits(x)
+        value = self.value_f(x)
+        return logits, value, Memory.detach()
+
+```
+
 
 ## successful navigation sample:
 https://github.com/shivacharan22/shivacharan22.github.io/assets/54499416/5c2073a6-a176-4f40-8d33-e9abcbf1e5f2
