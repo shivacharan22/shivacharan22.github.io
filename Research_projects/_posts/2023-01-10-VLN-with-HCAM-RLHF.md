@@ -2,7 +2,7 @@
 layout: post
 title: Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback
 image: 
-  path: /assets/img/model.jpeg
+  path: /assets/img/train_v1.gif
 description: >
   Vision Language Navigation Using Hierarchical Chunk Memory Attention and Reinforcement Learning with Human Feedback
 sitemap: false
@@ -83,10 +83,10 @@ class RLHF_net(nn.Module):
 ```
 
 ## successful navigation sample:
-https://github.com/shivacharan22/shivacharan22.github.io/assets/train_v1.mp4
+<video src='https://github.com/shivacharan22/shivacharan22.github.io/assets/train_v1.mp4' width=180/></video>
 
 ## Unsuccessful navigation sample:
-https://github.com/shivacharan22/VLN-Using-Hierarchical-Chunk-Memory-Attention-and-RLHF/blob/main/videos/val_v2.mp4
+<video src='https://github.com/shivacharan22/VLN-Using-Hierarchical-Chunk-Memory-Attention-and-RLHF/blob/main/videos/val_v2.mp4' width=180/></video>
 
 
 ## For detailed information please check out this [!Report!](https://github.com/shivacharan22/shivacharan22.github.io/files/12554322/Capstone_report_upload_.pdf)
