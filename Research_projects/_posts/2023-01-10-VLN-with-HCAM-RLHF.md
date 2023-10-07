@@ -18,7 +18,7 @@ Vision language navigation is a task in Embodied AI research where an agent has 
 
 ## Intution 
 
-![The layout of the whole network](/assets/img/arvl.jpeg)
+<video src='https://github.com/shivacharan22/shivacharan22.github.io/assets/train_v1.mp4' width=180/></video>
 
 ### why HCAM
 
@@ -81,13 +81,14 @@ class RLHF_net(nn.Module):
         return logits, value, Memory.detach()
 
 ```
-
+![The layout of the whole network](/assets/img/arvl.jpeg)
 
 ## successful navigation sample:
-https://github.com/shivacharan22/shivacharan22.github.io/assets/54499416/5c2073a6-a176-4f40-8d33-e9abcbf1e5f2
+https://github.com/shivacharan22/shivacharan22.github.io/assets/train_v1.mp4
 
 ## Unsuccessful navigation sample:
 https://github.com/shivacharan22/VLN-Using-Hierarchical-Chunk-Memory-Attention-and-RLHF/blob/main/videos/val_v2.mp4
+
 
 ## For detailed information please check out this [!Report!](https://github.com/shivacharan22/shivacharan22.github.io/files/12554322/Capstone_report_upload_.pdf)
 
