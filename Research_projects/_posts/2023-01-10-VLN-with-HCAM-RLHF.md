@@ -86,7 +86,7 @@ class RLHF_net(nn.Module):
 ![](/assets/img/train_v1.gif)
 
 ## Unsuccessful navigation sample:
-![](/assets/img/train_v1.gif)
+![](/assets/img/val_v2.gif)
 
 ## For detailed information please check out this [!Report!](https://github.com/shivacharan22/shivacharan22.github.io/files/12554322/Capstone_report_upload_.pdf)
 
