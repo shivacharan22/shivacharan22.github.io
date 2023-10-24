@@ -16,7 +16,7 @@ In their words
 
 ## Process
 
-* The first thing is we are not given a dataset so we have to make a dataset from public use licenced datasets only*. So I have prepared a dataset of 25k images with more or less equal ratios of the provided categories. Here are the sources from which the dataset was made:
+* Here are the sources from which the dataset was made:
 
 - https://www.kaggle.com/datasets/naturalseeker/triplet-data https://www.kaggle.com/datasets/abhijeetbhilare/world-cuisines 
 - https://www.kaggle.com/datasets/naturalseeker/packed-goods 
@@ -27,7 +27,7 @@ In their words
 - https://www.kaggle.com/datasets/jaidevchittoria/babies-products-and-toys 
 - https://www.kaggle.com/competitions/google-universal-image-embedding
 
-* Next, I have to select a training method it's an obvious choice to fine-tune already available models and use triplet loss. I used Swin Transformer and DeiT. Swin transformer shined but I had to freeze the layers when finetuning.
+* Next, I have to select a training method. It's an obvious choice to fine-tune already available models and use triplet loss. I used Swin Transformer and DeiT.
 
 check out the project github [here](https://github.com/shivacharan22/Learning-Embedding-for-images-using-Deep-leaning/tree/main)
 
